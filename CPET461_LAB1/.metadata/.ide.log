@@ -1,0 +1,1946 @@
+2024-01-23 14:03:42,904 [INFO] Activator:176 - 
+
+
+2024-01-23 14:03:42,906 [INFO] Activator:177 - !SESSION log4j initialized
+2024-01-23 14:04:35,141 [INFO] ApplicationProperties:181 - Using Application install path: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541
+2024-01-23 14:04:35,170 [INFO] DbMcusXml:68 - Set database path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/mcu/
+2024-01-23 14:04:35,174 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/boardmanager/
+2024-01-23 14:04:35,175 [INFO] DbMcus:265 - Set plugin images path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/
+2024-01-23 14:04:35,177 [INFO] DbBoards:232 - Set plugin images path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/
+2024-01-23 14:04:35,179 [INFO] APIGFXSelector:72 - Set database path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/mcu/
+2024-01-23 14:04:35,192 [ERROR] ApiFinderProperties:197 - Copy problem with src file : C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\db\plugins\mcufinder\mcu\csand target file : C:\Users\njv3788\.stmcufinder\plugins\mcufinder\mcu\cs
+2024-01-23 14:04:35,229 [WARN] ApiFinderProperties:106 - C:\Users\njv3788\.stmcufinder\plugins\mcufinder\mcu\mcuFinder.mfd doesn't exist
+2024-01-23 14:04:35,232 [INFO] DbMcusAds:72 - Set database path to: C:\Users\njv3788\.stmcufinder\plugins\mcufinder//mcu/
+2024-01-23 14:04:35,233 [INFO] DbMcusDocs:92 - Set database path to: C:\Users\njv3788\.stmcufinder\plugins\mcufinder//mcu/
+2024-01-23 14:04:35,234 [INFO] DbMcusJson:59 - Set database path to: C:\Users\njv3788\.stmcufinder\plugins\mcufinder//mcu/
+2024-01-23 14:04:35,236 [INFO] DbBoardsDocs:84 - Set database path to: C:\Users\njv3788\.stmcufinder\plugins\mcufinder//mcu/
+2024-01-23 14:04:35,237 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\njv3788\.stmcufinder\plugins\mcufinder//mcu/
+2024-01-23 14:04:35,242 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\njv3788\.stmcufinder\plugins\mcufinder//mcu/cs/
+2024-01-23 14:04:35,300 [INFO] RulesReader:52 - Compatibility file has been processed (179 Rules)
+2024-01-23 14:04:35,357 [INFO] MicroXplorer:570 - Detected Java Version = 1.8.0_202
+2024-01-23 14:04:35,358 [INFO] DbMcusXml:68 - Set database path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/mcu/
+2024-01-23 14:04:35,360 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/boardmanager/
+2024-01-23 14:04:35,360 [INFO] DbMcus:265 - Set plugin images path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/
+2024-01-23 14:04:35,361 [INFO] DbBoards:232 - Set plugin images path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/
+2024-01-23 14:04:35,361 [INFO] APIGFXSelector:72 - Set database path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/mcu/
+2024-01-23 14:04:35,362 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\njv3788\.stmcufinder\plugins\mcufinder/ => C:\Users\njv3788\.stmcufinder\plugins\mcufinder
+2024-01-23 14:04:35,363 [INFO] DbMcusAds:72 - Set database path to: C:\Users\njv3788\.stmcufinder\plugins\mcufinder//mcu/
+2024-01-23 14:04:35,363 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\njv3788\.stmcufinder\plugins\mcufinder/ => C:\Users\njv3788\.stmcufinder\plugins\mcufinder
+2024-01-23 14:04:35,364 [INFO] DbMcusDocs:92 - Set database path to: C:\Users\njv3788\.stmcufinder\plugins\mcufinder//mcu/
+2024-01-23 14:04:35,364 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\njv3788\.stmcufinder\plugins\mcufinder/ => C:\Users\njv3788\.stmcufinder\plugins\mcufinder
+2024-01-23 14:04:35,365 [INFO] DbMcusJson:59 - Set database path to: C:\Users\njv3788\.stmcufinder\plugins\mcufinder//mcu/
+2024-01-23 14:04:35,365 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\njv3788\.stmcufinder\plugins\mcufinder/ => C:\Users\njv3788\.stmcufinder\plugins\mcufinder
+2024-01-23 14:04:35,366 [INFO] DbBoardsDocs:84 - Set database path to: C:\Users\njv3788\.stmcufinder\plugins\mcufinder//mcu/
+2024-01-23 14:04:35,366 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\njv3788\.stmcufinder\plugins\mcufinder/ => C:\Users\njv3788\.stmcufinder\plugins\mcufinder
+2024-01-23 14:04:35,366 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\njv3788\.stmcufinder\plugins\mcufinder//mcu/
+2024-01-23 14:04:35,367 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\njv3788\.stmcufinder\plugins\mcufinder/ => C:\Users\njv3788\.stmcufinder\plugins\mcufinder
+2024-01-23 14:04:35,368 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\njv3788\.stmcufinder\plugins\mcufinder/ => C:\Users\njv3788\.stmcufinder\plugins\mcufinder
+2024-01-23 14:04:35,368 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\njv3788\.stmcufinder\plugins\mcufinder//mcu/cs/
+2024-01-23 14:04:35,410 [INFO] MainPanel:185 - HeapMemory: 747634688
+2024-01-23 14:04:35,460 [INFO] DbMcusXml:68 - Set database path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/mcu/
+2024-01-23 14:04:35,461 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/boardmanager/
+2024-01-23 14:04:35,461 [INFO] DbMcus:265 - Set plugin images path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/
+2024-01-23 14:04:35,462 [INFO] DbBoards:232 - Set plugin images path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/
+2024-01-23 14:04:35,463 [INFO] APIGFXSelector:72 - Set database path to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/mcu/
+2024-01-23 14:04:35,464 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\njv3788\.stmcufinder\plugins\mcufinder/ => C:\Users\njv3788\.stmcufinder\plugins\mcufinder
+2024-01-23 14:04:35,465 [INFO] DbMcusAds:72 - Set database path to: C:\Users\njv3788\.stmcufinder\plugins\mcufinder//mcu/
+2024-01-23 14:04:35,465 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\njv3788\.stmcufinder\plugins\mcufinder/ => C:\Users\njv3788\.stmcufinder\plugins\mcufinder
+2024-01-23 14:04:35,466 [INFO] DbMcusDocs:92 - Set database path to: C:\Users\njv3788\.stmcufinder\plugins\mcufinder//mcu/
+2024-01-23 14:04:35,466 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\njv3788\.stmcufinder\plugins\mcufinder/ => C:\Users\njv3788\.stmcufinder\plugins\mcufinder
+2024-01-23 14:04:35,467 [INFO] DbMcusJson:59 - Set database path to: C:\Users\njv3788\.stmcufinder\plugins\mcufinder//mcu/
+2024-01-23 14:04:35,467 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\njv3788\.stmcufinder\plugins\mcufinder/ => C:\Users\njv3788\.stmcufinder\plugins\mcufinder
+2024-01-23 14:04:35,468 [INFO] DbBoardsDocs:84 - Set database path to: C:\Users\njv3788\.stmcufinder\plugins\mcufinder//mcu/
+2024-01-23 14:04:35,469 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\njv3788\.stmcufinder\plugins\mcufinder/ => C:\Users\njv3788\.stmcufinder\plugins\mcufinder
+2024-01-23 14:04:35,469 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\njv3788\.stmcufinder\plugins\mcufinder//mcu/
+2024-01-23 14:04:35,469 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\njv3788\.stmcufinder\plugins\mcufinder/ => C:\Users\njv3788\.stmcufinder\plugins\mcufinder
+2024-01-23 14:04:35,470 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\njv3788\.stmcufinder\plugins\mcufinder/ => C:\Users\njv3788\.stmcufinder\plugins\mcufinder
+2024-01-23 14:04:35,471 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\njv3788\.stmcufinder\plugins\mcufinder//mcu/cs/
+2024-01-23 14:04:35,483 [INFO] ApplicationProperties:181 - Using Application install path: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541
+2024-01-23 14:04:35,484 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=]
+2024-01-23 14:04:35,485 [INFO] PluginManage:292 - Check plugin analytics
+2024-01-23 14:04:35,491 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2024-01-23 14:04:35,492 [INFO] PluginManage:292 - Check plugin clock
+2024-01-23 14:04:35,499 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2024-01-23 14:04:35,500 [INFO] PluginManage:292 - Check plugin ddr
+2024-01-23 14:04:35,502 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2024-01-23 14:04:35,503 [INFO] PluginManage:292 - Check plugin filemanager
+2024-01-23 14:04:35,572 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2024-01-23 14:04:35,573 [INFO] PluginManage:292 - Check plugin ipmanager
+2024-01-23 14:04:35,578 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2024-01-23 14:04:35,579 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2024-01-23 14:04:35,585 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2024-01-23 14:04:35,586 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2024-01-23 14:04:35,599 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2024-01-23 14:04:35,600 [INFO] PluginManage:292 - Check plugin power
+2024-01-23 14:04:35,606 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2024-01-23 14:04:35,607 [INFO] PluginManage:292 - Check plugin projectmanager
+2024-01-23 14:04:35,615 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2024-01-23 14:04:35,616 [INFO] PluginManage:292 - Check plugin thirdparty
+2024-01-23 14:04:35,626 [INFO] ThirdPartyDb:294 - Open Third Party DataBase File (C:/Users/njv3788/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 0 ms. number of Sw pack : 0
+2024-01-23 14:04:35,636 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2024-01-23 14:04:35,637 [INFO] PluginManage:292 - Check plugin tools
+2024-01-23 14:04:35,639 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2024-01-23 14:04:35,640 [INFO] PluginManage:292 - Check plugin updater
+2024-01-23 14:04:35,647 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2024-01-23 14:04:35,648 [INFO] PluginManage:265 - PluginManage : Loaded plugins [12]
+2024-01-23 14:04:35,768 [INFO] PinOutPanel:1367 - setPackage(No Configuration,No Configuration)
+2024-01-23 14:04:35,823 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,824 [INFO] PluginManager:200 - loadIPPluginJar : add adc
+2024-01-23 14:04:35,826 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,827 [INFO] PluginManager:200 - loadIPPluginJar : add aes
+2024-01-23 14:04:35,829 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,830 [INFO] PluginManager:200 - loadIPPluginJar : add can
+2024-01-23 14:04:35,833 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,833 [INFO] PluginManager:200 - loadIPPluginJar : add comp
+2024-01-23 14:04:35,836 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,836 [INFO] PluginManager:200 - loadIPPluginJar : add cryp
+2024-01-23 14:04:35,838 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,839 [INFO] PluginManager:200 - loadIPPluginJar : add dfsdm
+2024-01-23 14:04:35,843 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,844 [INFO] PluginManager:200 - loadIPPluginJar : add dma
+2024-01-23 14:04:35,846 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,846 [INFO] PluginManager:200 - loadIPPluginJar : add fatfs
+2024-01-23 14:04:35,849 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,850 [INFO] PluginManager:200 - loadIPPluginJar : add fmc
+2024-01-23 14:04:35,855 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,856 [INFO] PluginManager:200 - loadIPPluginJar : add freertos
+2024-01-23 14:04:35,857 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,858 [INFO] PluginManager:200 - loadIPPluginJar : add genericplugin
+2024-01-23 14:04:35,860 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,861 [INFO] PluginManager:200 - loadIPPluginJar : add gfxmmu
+2024-01-23 14:04:35,863 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,864 [INFO] PluginManager:200 - loadIPPluginJar : add gfxsimulator
+2024-01-23 14:04:35,868 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,868 [INFO] PluginManager:200 - loadIPPluginJar : add gic
+2024-01-23 14:04:35,871 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,872 [INFO] PluginManager:200 - loadIPPluginJar : add gpio
+2024-01-23 14:04:35,874 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,874 [INFO] PluginManager:200 - loadIPPluginJar : add gtzc
+2024-01-23 14:04:35,876 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,877 [INFO] PluginManager:200 - loadIPPluginJar : add hash
+2024-01-23 14:04:35,879 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,881 [INFO] PluginManager:200 - loadIPPluginJar : add i2c
+2024-01-23 14:04:35,883 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,884 [INFO] PluginManager:200 - loadIPPluginJar : add i2s
+2024-01-23 14:04:35,887 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,888 [INFO] PluginManager:200 - loadIPPluginJar : add ipddr
+2024-01-23 14:04:35,889 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,890 [INFO] PluginManager:200 - loadIPPluginJar : add ltdc
+2024-01-23 14:04:35,892 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,893 [INFO] PluginManager:200 - loadIPPluginJar : add mdma
+2024-01-23 14:04:35,895 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,896 [INFO] PluginManager:200 - loadIPPluginJar : add nvic
+2024-01-23 14:04:35,898 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,898 [INFO] PluginManager:200 - loadIPPluginJar : add opamp
+2024-01-23 14:04:35,900 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,901 [INFO] PluginManager:200 - loadIPPluginJar : add pdm2pcm
+2024-01-23 14:04:35,905 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,907 [INFO] PluginManager:200 - loadIPPluginJar : add plateformsettings
+2024-01-23 14:04:35,908 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,909 [INFO] PluginManager:200 - loadIPPluginJar : add quadspi
+2024-01-23 14:04:35,911 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,912 [INFO] PluginManager:200 - loadIPPluginJar : add resmgrutility
+2024-01-23 14:04:35,914 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,915 [INFO] PluginManager:200 - loadIPPluginJar : add sai
+2024-01-23 14:04:35,917 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,917 [INFO] PluginManager:200 - loadIPPluginJar : add spi
+2024-01-23 14:04:35,919 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,920 [INFO] PluginManager:200 - loadIPPluginJar : add stm32_wpan
+2024-01-23 14:04:35,922 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,922 [INFO] PluginManager:200 - loadIPPluginJar : add tim
+2024-01-23 14:04:35,924 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,925 [INFO] PluginManager:200 - loadIPPluginJar : add touchsensing
+2024-01-23 14:04:35,927 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,927 [INFO] PluginManager:200 - loadIPPluginJar : add tracer_emb
+2024-01-23 14:04:35,929 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,930 [INFO] PluginManager:200 - loadIPPluginJar : add ts
+2024-01-23 14:04:35,931 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,932 [INFO] PluginManager:200 - loadIPPluginJar : add tsc
+2024-01-23 14:04:35,934 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,934 [INFO] PluginManager:200 - loadIPPluginJar : add ucpd
+2024-01-23 14:04:35,936 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:04:35,937 [INFO] PluginManager:200 - loadIPPluginJar : add usart
+2024-01-23 14:04:36,371 [INFO] BoardConnectionPanel:220 - [DDR PANEL] osNameString: Windows
+2024-01-23 14:04:36,445 [INFO] BoardConnectionPanel:3149 - [DDR PANEL] STM32CubeIDE environment
+2024-01-23 14:04:36,446 [INFO] MainDdrPanel:100 - [DDR PANEL] GETTER - cubeProgrammerPath is: null
+2024-01-23 14:04:36,588 [FATAL] Updater:277 - Updater called before beeing initialized
+2024-01-23 14:04:36,715 [FATAL] Updater:277 - Updater called before beeing initialized
+2024-01-23 14:04:36,722 [INFO] PinOutPanel:1367 - setPackage(No Configuration,No Configuration)
+2024-01-23 14:04:36,725 [FATAL] Updater:277 - Updater called before beeing initialized
+2024-01-23 14:04:36,731 [INFO] BoardConnectionPanel:3149 - [DDR PANEL] STM32CubeIDE environment
+2024-01-23 14:04:36,732 [INFO] MainDdrPanel:100 - [DDR PANEL] GETTER - cubeProgrammerPath is: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.1.0.201910081157\tools\bin
+2024-01-23 14:04:36,737 [INFO] ProgrammerExecThread:148 - [ProgrammerAPI] CubeProgrammer command construction: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.1.0.201910081157\tools\bin\STM32_Programmer_CLI.exe -l
+2024-01-23 14:04:37,052 [INFO] MainDdrPanel:90 - [DDR PANEL] SETTER - Set cubeProgrammerPath to: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.1.0.201910081157\tools\bin
+2024-01-23 14:04:37,059 [INFO] Updater:886 - Updater Version found : 5.4.0
+2024-01-23 14:04:37,074 [INFO] ApplicationProperties:181 - Using Application install path: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541
+2024-01-23 14:04:37,090 [INFO] MainUpdater:452 - Copy updater definitions from MX database
+2024-01-23 14:04:37,102 [INFO] MainUpdater:485 - Copy flag file definitions from MX database
+2024-01-23 14:04:37,105 [INFO] MainUpdater:501 - Copy thirdparty index definitions from MX database
+2024-01-23 14:04:37,107 [INFO] MainUpdater:520 - Copy default thirdparty db definitions from MX database
+2024-01-23 14:04:37,215 [INFO] MainUpdater:2232 - connection check result : 10
+2024-01-23 14:04:37,216 [INFO] MainUpdater:2859 - Updater definition file requires update
+2024-01-23 14:04:37,217 [INFO] MainUpdater:236 - Updater Check For Update Now.
+2024-01-23 14:04:37,218 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.40
+2024-01-23 14:04:37,305 [INFO] ServerAccessManage:348 - Download File updaters.zip
+2024-01-23 14:04:37,347 [INFO] FileExtend:210 - Unzip File : updaters.zip
+2024-01-23 14:04:37,348 [INFO] FileExtend:225 - Standard Zip Deflate
+2024-01-23 14:04:37,588 [INFO] ServerAccessManage:348 - Download File PacksControlFlags.xml
+2024-01-23 14:04:37,683 [INFO] ServerAccessManage:348 - Download File cubemx.pidx
+2024-01-23 14:04:37,803 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.FP-ATR-ASTRA1.pdsc
+2024-01-23 14:04:38,107 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.FP-ATR-SIGFOX1.pdsc
+2024-01-23 14:04:38,348 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.FP-SNS-FLIGHT1.pdsc
+2024-01-23 14:04:38,643 [WARN] MainUpdater:1075 - Updater busy. Cannot search thirdparties
+2024-01-23 14:04:38,676 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.FP-SNS-MOTENV1.pdsc
+2024-01-23 14:04:38,928 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.FP-SNS-MOTENVWB1.pdsc
+2024-01-23 14:04:39,146 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.FP-SNS-SMARTAG2.pdsc
+2024-01-23 14:04:39,282 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-AI.pdsc
+2024-01-23 14:04:40,523 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-ALS.pdsc
+2024-01-23 14:04:40,780 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-BLE1.pdsc
+2024-01-23 14:04:41,656 [WARN] MainUpdater:1075 - Updater busy. Cannot search thirdparties
+2024-01-23 14:04:42,529 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2024-01-23 14:04:42,604 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-BLE2.pdsc
+2024-01-23 14:04:43,219 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-BLEMGR.pdsc
+2024-01-23 14:04:44,110 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-DISPLAY.pdsc
+2024-01-23 14:04:44,623 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-EEPRMA1.pdsc
+2024-01-23 14:04:44,669 [WARN] MainUpdater:1075 - Updater busy. Cannot search thirdparties
+2024-01-23 14:04:45,159 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2024-01-23 14:04:45,405 [INFO] MainUpdater:2232 - connection check result : 10
+2024-01-23 14:04:45,406 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Successfull proxy connection.
+2024-01-23 14:04:45,453 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2024-01-23 14:04:45,461 [INFO] FinderPluginLoader:86 - Searching for filters in installed packs
+2024-01-23 14:04:45,462 [INFO] DbMcusXml:106 - Load MCU database from C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/mcu/families.xml
+2024-01-23 14:04:45,577 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2024-01-23 14:04:45,662 [INFO] DbMcusJson:87 - JSON generation date=Mon Sep 23 05:35:45 EDT 2019 (1569231345)
+2024-01-23 14:04:45,974 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-FREERTOS.pdsc
+2024-01-23 14:04:46,031 [INFO] DbMcus:193 - Found 1544 MCUs (1504 are supported by CubeMX, 1504 are visible in CubeMX)
+2024-01-23 14:04:46,032 [INFO] ApiDb:147 - User favorites file not found: C:\Users\njv3788/.stm32cubeide/favorites.mcus.txt
+2024-01-23 14:04:46,033 [INFO] DbMcus:204 - Set 0 / 0 favorites MCUs
+2024-01-23 14:04:46,328 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-GNSS1.pdsc
+2024-01-23 14:04:46,358 [INFO] DbMcusAds:130 - JSON generation date=Wed Feb 20 11:46:15 EST 2019 (1550681175)
+2024-01-23 14:04:46,360 [WARN] McuDetailPanel:183 - Failed to get advertising image, set to default
+2024-01-23 14:04:46,587 [INFO] DbMcusDocs:126 - JSON generation date=Mon Sep 23 05:35:45 EDT 2019 (1569231345)
+2024-01-23 14:04:46,632 [INFO] DbMcusDocs:61 - Found 525 MCUs documents
+2024-01-23 14:04:46,634 [INFO] ApiDb:186 - Save user favorites file C:\Users\njv3788/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2024-01-23 14:04:46,634 [INFO] ApiDb:191 - User favorites MCUs=[]
+2024-01-23 14:04:46,635 [INFO] DbMcusXml:106 - Load MCU database from C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/mcu/families.xml
+2024-01-23 14:04:46,765 [INFO] DbMcusJson:87 - JSON generation date=Mon Sep 23 05:35:45 EDT 2019 (1569231345)
+2024-01-23 14:04:47,033 [INFO] DbMcus:193 - Found 1544 MCUs (1504 are supported by CubeMX, 1504 are visible in CubeMX)
+2024-01-23 14:04:47,034 [INFO] ApiDb:158 - Load user favorites file C:\Users\njv3788/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2024-01-23 14:04:47,035 [INFO] ApiDb:163 - User favorites MCUs=[]
+2024-01-23 14:04:47,035 [INFO] DbMcus:204 - Set 0 / 0 favorites MCUs
+2024-01-23 14:04:47,059 [INFO] McuFilterPanel:282 - Update 0 favorites MCUs
+2024-01-23 14:04:47,142 [INFO] DbBoardsDocs:118 - JSON generation date=Mon Sep 23 05:35:45 EDT 2019 (1569231345)
+2024-01-23 14:04:47,152 [INFO] DbBoardsPdsc:92 - Found 19 items
+2024-01-23 14:04:47,154 [INFO] DbBoardsPdsc:92 - Found 9 items
+2024-01-23 14:04:47,157 [INFO] DbBoardsPdsc:92 - Found 27 items
+2024-01-23 14:04:47,159 [INFO] DbBoardsPdsc:92 - Found 1 items
+2024-01-23 14:04:47,165 [INFO] DbBoardsPdsc:92 - Found 38 items
+2024-01-23 14:04:47,176 [INFO] DbBoardsPdsc:92 - Found 38 items
+2024-01-23 14:04:47,178 [INFO] DbBoardsPdsc:92 - Found 1 items
+2024-01-23 14:04:47,191 [INFO] DbBoardsJson:79 - JSON generation date=Fri Sep 27 07:37:26 EDT 2019 (1569584246)
+2024-01-23 14:04:47,198 [INFO] DbBoards:120 - Found 133 boards (132 are supported by CubeMX)
+2024-01-23 14:04:47,206 [INFO] DbBoardsDocs:118 - JSON generation date=Mon Sep 23 05:35:45 EDT 2019 (1569231345)
+2024-01-23 14:04:47,212 [INFO] DbBoardsDocs:57 - Found 160 boards documents
+2024-01-23 14:04:47,213 [WARN] DbBoards:130 - board NUCLEO-H743ZI2 has no document id list !
+2024-01-23 14:04:47,214 [WARN] DbBoards:130 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2024-01-23 14:04:47,214 [WARN] DbBoards:130 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2024-01-23 14:04:47,215 [WARN] DbBoards:130 - board P-NUCLEO-WB55 has no document id list !
+2024-01-23 14:04:47,215 [WARN] DbBoards:130 - board STM32F401C-DISCO has no document id list !
+2024-01-23 14:04:47,216 [WARN] DbBoards:130 - board STM32F769I-DISC1 has no document id list !
+2024-01-23 14:04:47,217 [WARN] DbBoards:130 - board STM32L-DISCOVERY has no document id list !
+2024-01-23 14:04:47,217 [WARN] DbBoards:130 - board STM32H747I-DISC1 has no document id list !
+2024-01-23 14:04:47,218 [WARN] DbBoards:130 - board STM32MP157A-DK1 has no document id list !
+2024-01-23 14:04:47,218 [WARN] DbBoards:130 - board STM32L562E-DK has no document id list !
+2024-01-23 14:04:47,219 [WARN] DbBoards:130 - board STM32100E-EVAL has no document id list !
+2024-01-23 14:04:47,219 [WARN] DbBoards:130 - board STM32303C-EVAL has no document id list !
+2024-01-23 14:04:47,220 [WARN] DbBoards:130 - board STM32L152D-EVAL has no document id list !
+2024-01-23 14:04:47,221 [WARN] DbBoards:130 - board STM32H743I-EVAL2 has no document id list !
+2024-01-23 14:04:47,221 [WARN] DbBoards:130 - board STM32H753I-EVAL2 has no document id list !
+2024-01-23 14:04:47,222 [WARN] DbBoards:130 - board STM32G474E-EVAL1 has no document id list !
+2024-01-23 14:04:47,222 [WARN] DbBoards:130 - board STM32L552E-EV has no document id list !
+2024-01-23 14:04:47,223 [WARN] DbBoards:130 - board STEVAL-MKSBOX1V1 has no document id list !
+2024-01-23 14:04:47,397 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2024-01-23 14:04:47,539 [ERROR] DbBoards:192 - Image file not found for board STM32G0316-DISCO: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/boards/stm32g0316discovery_small.jpg
+2024-01-23 14:04:47,675 [WARN] MainUpdater:1075 - Updater busy. Cannot search thirdparties
+2024-01-23 14:04:47,734 [INFO] ApiDb:147 - User favorites file not found: C:\Users\njv3788/.stm32cubeide/favorites.boards.txt
+2024-01-23 14:04:47,735 [INFO] DbBoards:209 - Set 0 / 0 favorites Boards
+2024-01-23 14:04:47,738 [INFO] DbBoardsDocs:57 - Found 320 boards documents
+2024-01-23 14:04:47,739 [INFO] ApiDb:186 - Save user favorites file C:\Users\njv3788/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2024-01-23 14:04:47,739 [INFO] ApiDb:191 - User favorites Boards=[]
+2024-01-23 14:04:47,742 [INFO] DbBoardsPdsc:92 - Found 19 items
+2024-01-23 14:04:47,743 [INFO] DbBoardsPdsc:92 - Found 9 items
+2024-01-23 14:04:47,744 [INFO] DbBoardsPdsc:92 - Found 27 items
+2024-01-23 14:04:47,745 [INFO] DbBoardsPdsc:92 - Found 1 items
+2024-01-23 14:04:47,746 [INFO] DbBoardsPdsc:92 - Found 38 items
+2024-01-23 14:04:47,748 [INFO] DbBoardsPdsc:92 - Found 38 items
+2024-01-23 14:04:47,749 [INFO] DbBoardsPdsc:92 - Found 1 items
+2024-01-23 14:04:47,755 [INFO] DbBoardsJson:79 - JSON generation date=Fri Sep 27 07:37:26 EDT 2019 (1569584246)
+2024-01-23 14:04:47,758 [INFO] DbBoards:120 - Found 133 boards (132 are supported by CubeMX)
+2024-01-23 14:04:47,760 [WARN] DbBoards:130 - board NUCLEO-H743ZI2 has no document id list !
+2024-01-23 14:04:47,760 [WARN] DbBoards:130 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2024-01-23 14:04:47,761 [WARN] DbBoards:130 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2024-01-23 14:04:47,762 [WARN] DbBoards:130 - board P-NUCLEO-WB55 has no document id list !
+2024-01-23 14:04:47,762 [WARN] DbBoards:130 - board STM32F401C-DISCO has no document id list !
+2024-01-23 14:04:47,763 [WARN] DbBoards:130 - board STM32F769I-DISC1 has no document id list !
+2024-01-23 14:04:47,764 [WARN] DbBoards:130 - board STM32L-DISCOVERY has no document id list !
+2024-01-23 14:04:47,764 [WARN] DbBoards:130 - board STM32H747I-DISC1 has no document id list !
+2024-01-23 14:04:47,765 [WARN] DbBoards:130 - board STM32MP157A-DK1 has no document id list !
+2024-01-23 14:04:47,765 [WARN] DbBoards:130 - board STM32L562E-DK has no document id list !
+2024-01-23 14:04:47,766 [WARN] DbBoards:130 - board STM32100E-EVAL has no document id list !
+2024-01-23 14:04:47,766 [WARN] DbBoards:130 - board STM32303C-EVAL has no document id list !
+2024-01-23 14:04:47,767 [WARN] DbBoards:130 - board STM32L152D-EVAL has no document id list !
+2024-01-23 14:04:47,767 [WARN] DbBoards:130 - board STM32H743I-EVAL2 has no document id list !
+2024-01-23 14:04:47,768 [WARN] DbBoards:130 - board STM32H753I-EVAL2 has no document id list !
+2024-01-23 14:04:47,768 [WARN] DbBoards:130 - board STM32G474E-EVAL1 has no document id list !
+2024-01-23 14:04:47,769 [WARN] DbBoards:130 - board STM32L552E-EV has no document id list !
+2024-01-23 14:04:47,769 [WARN] DbBoards:130 - board STEVAL-MKSBOX1V1 has no document id list !
+2024-01-23 14:04:47,915 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2024-01-23 14:04:47,917 [ERROR] DbBoards:192 - Image file not found for board STM32G0316-DISCO: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/boards/stm32g0316discovery_small.jpg
+2024-01-23 14:04:48,021 [INFO] ApiDb:158 - Load user favorites file C:\Users\njv3788/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2024-01-23 14:04:48,023 [INFO] ApiDb:163 - User favorites Boards=[]
+2024-01-23 14:04:48,024 [INFO] DbBoards:209 - Set 0 / 0 favorites Boards
+2024-01-23 14:04:48,077 [INFO] McuFilterPanel:282 - Update 0 favorites MCUs
+2024-01-23 14:04:48,127 [WARN] BoardDetailPanel:182 - Failed to get advertising image, set to default
+2024-01-23 14:04:48,147 [INFO] DbMcusDocs:126 - JSON generation date=Mon Sep 23 05:35:45 EDT 2019 (1569231345)
+2024-01-23 14:04:48,178 [INFO] DbMcusDocs:61 - Found 525 MCUs documents
+2024-01-23 14:04:48,180 [INFO] ApiDb:186 - Save user favorites file C:\Users\njv3788/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2024-01-23 14:04:48,181 [INFO] ApiDb:191 - User favorites MCUs=[]
+2024-01-23 14:04:48,181 [INFO] DbMcusXml:106 - Load MCU database from C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/mcu/families.xml
+2024-01-23 14:04:48,320 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2024-01-23 14:04:48,393 [INFO] DbMcusJson:87 - JSON generation date=Mon Sep 23 05:35:45 EDT 2019 (1569231345)
+2024-01-23 14:04:48,541 [INFO] DbMcus:193 - Found 1544 MCUs (1504 are supported by CubeMX, 1504 are visible in CubeMX)
+2024-01-23 14:04:48,543 [INFO] ApiDb:158 - Load user favorites file C:\Users\njv3788/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2024-01-23 14:04:48,544 [INFO] ApiDb:163 - User favorites MCUs=[]
+2024-01-23 14:04:48,545 [INFO] DbMcus:204 - Set 0 / 0 favorites MCUs
+2024-01-23 14:04:48,560 [INFO] McuFilterPanel:282 - Update 0 favorites MCUs
+2024-01-23 14:04:48,640 [INFO] DbBoardsDocs:118 - JSON generation date=Mon Sep 23 05:35:45 EDT 2019 (1569231345)
+2024-01-23 14:04:48,642 [INFO] DbBoardsDocs:57 - Found 160 boards documents
+2024-01-23 14:04:48,643 [INFO] ApiDb:186 - Save user favorites file C:\Users\njv3788/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2024-01-23 14:04:48,644 [INFO] ApiDb:191 - User favorites Boards=[]
+2024-01-23 14:04:48,647 [INFO] DbBoardsPdsc:92 - Found 19 items
+2024-01-23 14:04:48,648 [INFO] DbBoardsPdsc:92 - Found 9 items
+2024-01-23 14:04:48,650 [INFO] DbBoardsPdsc:92 - Found 27 items
+2024-01-23 14:04:48,651 [INFO] DbBoardsPdsc:92 - Found 1 items
+2024-01-23 14:04:48,654 [INFO] DbBoardsPdsc:92 - Found 38 items
+2024-01-23 14:04:48,658 [INFO] DbBoardsPdsc:92 - Found 38 items
+2024-01-23 14:04:48,659 [INFO] DbBoardsPdsc:92 - Found 1 items
+2024-01-23 14:04:48,665 [INFO] DbBoardsJson:79 - JSON generation date=Fri Sep 27 07:37:26 EDT 2019 (1569584246)
+2024-01-23 14:04:48,668 [INFO] DbBoards:120 - Found 133 boards (132 are supported by CubeMX)
+2024-01-23 14:04:48,669 [WARN] DbBoards:130 - board NUCLEO-H743ZI2 has no document id list !
+2024-01-23 14:04:48,670 [WARN] DbBoards:130 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2024-01-23 14:04:48,671 [WARN] DbBoards:130 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2024-01-23 14:04:48,671 [WARN] DbBoards:130 - board P-NUCLEO-WB55 has no document id list !
+2024-01-23 14:04:48,672 [WARN] DbBoards:130 - board STM32F401C-DISCO has no document id list !
+2024-01-23 14:04:48,673 [WARN] DbBoards:130 - board STM32F769I-DISC1 has no document id list !
+2024-01-23 14:04:48,673 [WARN] DbBoards:130 - board STM32L-DISCOVERY has no document id list !
+2024-01-23 14:04:48,674 [WARN] DbBoards:130 - board STM32H747I-DISC1 has no document id list !
+2024-01-23 14:04:48,674 [WARN] DbBoards:130 - board STM32MP157A-DK1 has no document id list !
+2024-01-23 14:04:48,675 [WARN] DbBoards:130 - board STM32L562E-DK has no document id list !
+2024-01-23 14:04:48,676 [WARN] DbBoards:130 - board STM32100E-EVAL has no document id list !
+2024-01-23 14:04:48,677 [WARN] DbBoards:130 - board STM32303C-EVAL has no document id list !
+2024-01-23 14:04:48,677 [WARN] DbBoards:130 - board STM32L152D-EVAL has no document id list !
+2024-01-23 14:04:48,679 [WARN] DbBoards:130 - board STM32H743I-EVAL2 has no document id list !
+2024-01-23 14:04:48,680 [WARN] DbBoards:130 - board STM32H753I-EVAL2 has no document id list !
+2024-01-23 14:04:48,680 [WARN] DbBoards:130 - board STM32G474E-EVAL1 has no document id list !
+2024-01-23 14:04:48,681 [WARN] DbBoards:130 - board STM32L552E-EV has no document id list !
+2024-01-23 14:04:48,682 [WARN] DbBoards:130 - board STEVAL-MKSBOX1V1 has no document id list !
+2024-01-23 14:04:48,746 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2024-01-23 14:04:48,896 [ERROR] DbBoards:192 - Image file not found for board STM32G0316-DISCO: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\/plugins/mcufinder/images/boards/stm32g0316discovery_small.jpg
+2024-01-23 14:04:49,001 [INFO] ApiDb:158 - Load user favorites file C:\Users\njv3788/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2024-01-23 14:04:49,002 [INFO] ApiDb:163 - User favorites Boards=[]
+2024-01-23 14:04:49,003 [INFO] DbBoards:209 - Set 0 / 0 favorites Boards
+2024-01-23 14:04:49,006 [INFO] BoardFilterPanel:211 - Update 0 favorites Boards
+2024-01-23 14:04:49,070 [INFO] BoardFilterPanel:211 - Update 0 favorites Boards
+2024-01-23 14:04:49,126 [INFO] CrossSelectorPresenter:1319 - Cross Selector saved comparison directory: C:\Users\njv3788\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2024-01-23 14:04:49,147 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2024-01-23 14:04:49,536 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2024-01-23 14:04:49,660 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-ISPU.pdsc
+2024-01-23 14:04:49,913 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-MEMS1.pdsc
+2024-01-23 14:04:50,676 [WARN] MainUpdater:1075 - Updater busy. Cannot search thirdparties
+2024-01-23 14:04:51,808 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-NFC4.pdsc
+2024-01-23 14:04:52,762 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-NFC6.pdsc
+2024-01-23 14:04:52,949 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-NFC7.pdsc
+2024-01-23 14:04:53,212 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-SFXS2LP1.pdsc
+2024-01-23 14:04:53,511 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-SUBG2.pdsc
+2024-01-23 14:04:53,679 [WARN] MainUpdater:1075 - Updater busy. Cannot search thirdparties
+2024-01-23 14:04:54,450 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-SMBUS.pdsc
+2024-01-23 14:04:54,912 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2024-01-23 14:04:54,973 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-TOF1.pdsc
+2024-01-23 14:04:55,847 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2024-01-23 14:04:55,969 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-TOUCHGFX.pdsc
+2024-01-23 14:04:56,685 [WARN] MainUpdater:1075 - Updater busy. Cannot search thirdparties
+2024-01-23 14:04:57,185 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-ALGOBUILD.pdsc
+2024-01-23 14:04:57,675 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-AZRTOS-H7.pdsc
+2024-01-23 14:04:58,275 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-AZRTOS-F4.pdsc
+2024-01-23 14:04:58,482 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-AZRTOS-F7.pdsc
+2024-01-23 14:04:58,820 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-AZRTOS-L4.pdsc
+2024-01-23 14:04:59,034 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-AZRTOS-L5.pdsc
+2024-01-23 14:04:59,329 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-AZRTOS-G0.pdsc
+2024-01-23 14:04:59,548 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-AZRTOS-G4.pdsc
+2024-01-23 14:04:59,693 [WARN] MainUpdater:1075 - Updater busy. Cannot search thirdparties
+2024-01-23 14:04:59,765 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-AZRTOS-WB.pdsc
+2024-01-23 14:05:00,024 [INFO] ServerAccessManage:348 - Download File STMicroelectronics.X-CUBE-AZRTOS-WL.pdsc
+2024-01-23 14:05:00,249 [INFO] ServerAccessManage:348 - Download File wolfSSL.I-CUBE-wolfSSL.pdsc
+2024-01-23 14:05:02,703 [WARN] MainUpdater:1075 - Updater busy. Cannot search thirdparties
+2024-01-23 14:05:03,023 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2024-01-23 14:05:03,338 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2024-01-23 14:05:03,661 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2024-01-23 14:05:03,764 [ERROR] ServerAccessManage:954 - Problem, Http access forbiden
+2024-01-23 14:05:03,767 [ERROR] ServerAccessManage:517 - Problem, Http access forbiden : RoweBots.I-CUBE-UNISONRTOS.pdsc.
+2024-01-23 14:05:04,116 [INFO] ServerAccessManage:348 - Download File SEGGER.I-CUBE-embOS.pdsc
+2024-01-23 14:05:05,716 [WARN] MainUpdater:1075 - Updater busy. Cannot search thirdparties
+2024-01-23 14:05:06,204 [INFO] ServerAccessManage:348 - Download File portGmbH.I-Cube-SoM-uGOAL.pdsc
+2024-01-23 14:05:07,520 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2024-01-23 14:05:07,933 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2024-01-23 14:05:08,338 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2024-01-23 14:05:08,720 [WARN] MainUpdater:1075 - Updater busy. Cannot search thirdparties
+2024-01-23 14:05:08,957 [INFO] ServerAccessManage:348 - Download File emotas.I-CUBE-CANOPEN.pdsc
+2024-01-23 14:05:09,798 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2024-01-23 14:05:10,537 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2024-01-23 14:05:11,724 [WARN] MainUpdater:1075 - Updater busy. Cannot search thirdparties
+2024-01-23 14:05:11,906 [INFO] ServerAccessManage:348 - Download File WES.I-CUBE-Cesium.pdsc
+2024-01-23 14:05:12,690 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2024-01-23 14:05:13,075 [ERROR] ServerAccessManage:947 - Problem, file not found on Server
+2024-01-23 14:05:13,483 [INFO] ServerAccessManage:348 - Download File ITTIA_DB.I-CUBE-ITTIADB.pdsc
+2024-01-23 14:05:14,728 [WARN] MainUpdater:1075 - Updater busy. Cannot search thirdparties
+2024-01-23 14:05:15,357 [INFO] ServerAccessManage:348 - Download File Infineon.AIROC-Wi-Fi-Bluetooth-STM32.pdsc
+2024-01-23 14:05:15,704 [INFO] LoadServerUpdatesThread:287 - End of LoadServerUpdate Thread
+2024-01-23 14:05:15,707 [WARN] PopulateThirdPartyThread:73 - Error populating pack: STMicroelectronics.FP-ATR-ASTRA1.pdsc
+2024-01-23 14:05:15,709 [WARN] PopulateThirdPartyThread:73 - Error populating pack: STMicroelectronics.FP-ATR-SIGFOX1.pdsc
+2024-01-23 14:05:15,710 [WARN] PopulateThirdPartyThread:73 - Error populating pack: STMicroelectronics.FP-SNS-FLIGHT1.pdsc
+2024-01-23 14:05:15,711 [WARN] PopulateThirdPartyThread:73 - Error populating pack: STMicroelectronics.FP-SNS-MOTENV1.pdsc
+2024-01-23 14:05:15,712 [WARN] PopulateThirdPartyThread:73 - Error populating pack: STMicroelectronics.FP-SNS-MOTENVWB1.pdsc
+2024-01-23 14:05:15,713 [WARN] PopulateThirdPartyThread:73 - Error populating pack: STMicroelectronics.FP-SNS-SMARTAG2.pdsc
+2024-01-23 14:05:15,722 [INFO] CheckServerUpdateThread:92 - End of CheckServer Thread
+2024-01-23 14:05:15,733 [WARN] PopulateThirdPartyThread:73 - Error populating pack: STMicroelectronics.X-CUBE-ALS.pdsc
+2024-01-23 14:05:15,739 [WARN] PopulateThirdPartyThread:73 - Error populating pack: STMicroelectronics.X-CUBE-BLEMGR.pdsc
+2024-01-23 14:05:15,742 [WARN] PopulateThirdPartyThread:73 - Error populating pack: STMicroelectronics.X-CUBE-DISPLAY.pdsc
+2024-01-23 14:05:15,747 [WARN] PopulateThirdPartyThread:73 - Error populating pack: STMicroelectronics.X-CUBE-FREERTOS.pdsc
+2024-01-23 14:05:15,762 [INFO] MxPackages:594 - 
+2024-01-23 14:05:15,763 [INFO] MxPackages:594 - 
+2024-01-23 14:05:15,763 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,764 [INFO] MxPackages:594 - 
+2024-01-23 14:05:15,765 [INFO] MxPackages:594 - 
+2024-01-23 14:05:15,765 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,765 [INFO] MxPackages:594 - 
+2024-01-23 14:05:15,766 [INFO] MxPackages:594 - 
+2024-01-23 14:05:15,766 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,767 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,767 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,768 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,768 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,769 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,769 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,769 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,770 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,770 [INFO] MxPackages:662 - 
+2024-01-23 14:05:15,770 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,771 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,771 [INFO] MxPackages:662 - 
+2024-01-23 14:05:15,771 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,772 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,772 [INFO] MxPackages:662 - 
+2024-01-23 14:05:15,773 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,773 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,774 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,774 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,775 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,776 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,776 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,777 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,777 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,777 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,778 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,778 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,779 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,779 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,780 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,780 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,781 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,781 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,781 [INFO] MxPackages:594 - 
+2024-01-23 14:05:15,782 [INFO] MxPackages:594 - 
+2024-01-23 14:05:15,782 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,783 [INFO] MxPackages:594 - 
+2024-01-23 14:05:15,783 [INFO] MxPackages:594 - 
+2024-01-23 14:05:15,784 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,784 [INFO] MxPackages:594 - 
+2024-01-23 14:05:15,785 [INFO] MxPackages:594 - 
+2024-01-23 14:05:15,785 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,786 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,786 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,787 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,787 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,787 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,788 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,788 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,789 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,789 [INFO] MxPackages:662 - 
+2024-01-23 14:05:15,790 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,790 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,791 [INFO] MxPackages:662 - 
+2024-01-23 14:05:15,791 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,792 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,792 [INFO] MxPackages:662 - 
+2024-01-23 14:05:15,792 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,793 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,793 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,794 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,794 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,795 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,795 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,796 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,796 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,797 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,797 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,797 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,806 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,807 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,808 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,808 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,809 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,809 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,810 [INFO] MxPackages:594 - 
+2024-01-23 14:05:15,810 [INFO] MxPackages:594 - 
+2024-01-23 14:05:15,811 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,811 [INFO] MxPackages:594 - 
+2024-01-23 14:05:15,812 [INFO] MxPackages:594 - 
+2024-01-23 14:05:15,813 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,813 [INFO] MxPackages:594 - 
+2024-01-23 14:05:15,814 [INFO] MxPackages:594 - 
+2024-01-23 14:05:15,814 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,815 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,815 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,816 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,816 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,817 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,817 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,818 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,818 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,819 [INFO] MxPackages:662 - 
+2024-01-23 14:05:15,819 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,820 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,820 [INFO] MxPackages:662 - 
+2024-01-23 14:05:15,821 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,821 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,822 [INFO] MxPackages:662 - 
+2024-01-23 14:05:15,822 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,823 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,823 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,824 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,824 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,825 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,825 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,826 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,826 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,827 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,827 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,828 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,828 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,829 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,830 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,830 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,831 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,831 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,832 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,833 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,833 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,834 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,835 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,835 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,836 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,836 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,837 [INFO] MxPackages:662 - 
+2024-01-23 14:05:15,838 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,838 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,839 [INFO] MxPackages:662 - 
+2024-01-23 14:05:15,839 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,840 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,840 [INFO] MxPackages:662 - 
+2024-01-23 14:05:15,842 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,842 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,843 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,843 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,844 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,845 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,846 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,847 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,848 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,849 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,849 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,850 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,850 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,851 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,851 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,852 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,853 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,854 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,855 [INFO] MxPackages:594 - 
+2024-01-23 14:05:15,855 [INFO] MxPackages:594 - 
+2024-01-23 14:05:15,856 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,857 [INFO] MxPackages:594 - 
+2024-01-23 14:05:15,858 [INFO] MxPackages:594 - 
+2024-01-23 14:05:15,858 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,859 [INFO] MxPackages:594 - 
+2024-01-23 14:05:15,859 [INFO] MxPackages:594 - 
+2024-01-23 14:05:15,860 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,861 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,861 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,862 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,863 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,863 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,864 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,864 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,865 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,866 [INFO] MxPackages:662 - 
+2024-01-23 14:05:15,867 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,867 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,868 [INFO] MxPackages:662 - 
+2024-01-23 14:05:15,868 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,869 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,869 [INFO] MxPackages:662 - 
+2024-01-23 14:05:15,870 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,871 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,871 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,872 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,872 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,873 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,874 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,874 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,875 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,875 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,876 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,877 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,877 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,878 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,878 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,879 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,879 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,880 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,880 [INFO] MxPackages:594 - 
+2024-01-23 14:05:15,882 [INFO] MxPackages:594 - 
+2024-01-23 14:05:15,882 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,882 [INFO] MxPackages:594 - 
+2024-01-23 14:05:15,883 [INFO] MxPackages:594 - 
+2024-01-23 14:05:15,884 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,884 [INFO] MxPackages:594 - 
+2024-01-23 14:05:15,885 [INFO] MxPackages:594 - 
+2024-01-23 14:05:15,886 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,886 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,887 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,887 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,888 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,889 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,889 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,890 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,890 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,892 [INFO] MxPackages:662 - 
+2024-01-23 14:05:15,892 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,892 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,893 [INFO] MxPackages:662 - 
+2024-01-23 14:05:15,894 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,894 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,895 [INFO] MxPackages:662 - 
+2024-01-23 14:05:15,895 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,896 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,896 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,897 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,897 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,898 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,898 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,899 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,900 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,900 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,901 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,901 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,902 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,902 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,903 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,904 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,904 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,905 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,906 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,906 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,907 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,908 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,908 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,909 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,909 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,910 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,911 [INFO] MxPackages:662 - 
+2024-01-23 14:05:15,911 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,912 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,912 [INFO] MxPackages:662 - 
+2024-01-23 14:05:15,913 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,914 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,914 [INFO] MxPackages:662 - 
+2024-01-23 14:05:15,915 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,916 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,917 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,917 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,918 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,918 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,919 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,919 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,920 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,920 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,921 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,921 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,922 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,922 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,923 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,924 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,924 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,924 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,926 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,926 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,927 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,927 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,928 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,928 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,929 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,929 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,930 [INFO] MxPackages:662 - 
+2024-01-23 14:05:15,930 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,931 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,931 [INFO] MxPackages:662 - 
+2024-01-23 14:05:15,932 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,933 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,933 [INFO] MxPackages:662 - 
+2024-01-23 14:05:15,934 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,934 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,935 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,935 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,936 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,936 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,937 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,938 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,938 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,939 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,939 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,940 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,940 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,941 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,942 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,942 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,943 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,943 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,944 [INFO] MxPackages:594 - 
+2024-01-23 14:05:15,944 [INFO] MxPackages:594 - 
+2024-01-23 14:05:15,945 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,945 [INFO] MxPackages:594 - 
+2024-01-23 14:05:15,946 [INFO] MxPackages:594 - 
+2024-01-23 14:05:15,947 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,947 [INFO] MxPackages:594 - 
+2024-01-23 14:05:15,948 [INFO] MxPackages:594 - 
+2024-01-23 14:05:15,948 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,949 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,949 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,950 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,950 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,951 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,951 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,952 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,953 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,953 [INFO] MxPackages:662 - 
+2024-01-23 14:05:15,954 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,954 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,954 [INFO] MxPackages:662 - 
+2024-01-23 14:05:15,955 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,956 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,956 [INFO] MxPackages:662 - 
+2024-01-23 14:05:15,957 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,957 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,958 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,958 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,959 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,960 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,960 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,961 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,962 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,962 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,964 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,964 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,965 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,965 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,966 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,967 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,967 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,968 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,969 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,970 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,971 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,971 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,972 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,972 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,973 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,974 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,975 [INFO] MxPackages:662 - 
+2024-01-23 14:05:15,975 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,976 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,976 [INFO] MxPackages:662 - 
+2024-01-23 14:05:15,977 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,977 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,978 [INFO] MxPackages:662 - 
+2024-01-23 14:05:15,978 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,979 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,981 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,981 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,982 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,983 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,983 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,984 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,985 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,985 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,986 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,987 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,987 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,988 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,989 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,989 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,990 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,990 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,991 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,992 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,992 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,993 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,993 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,994 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,994 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,994 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,995 [INFO] MxPackages:662 - 
+2024-01-23 14:05:15,995 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,996 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,997 [INFO] MxPackages:662 - 
+2024-01-23 14:05:15,997 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,998 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,998 [INFO] MxPackages:662 - 
+2024-01-23 14:05:15,999 [INFO] MxPackages:628 - 
+2024-01-23 14:05:15,999 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,000 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,001 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,001 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,002 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,002 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,004 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,004 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,005 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,005 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,006 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,006 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,007 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,007 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,008 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,009 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,009 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,010 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,010 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,011 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,011 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,012 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,012 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,013 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,014 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,014 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,015 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,015 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,016 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,017 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,017 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,018 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,018 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,019 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,019 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,020 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,021 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,021 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,022 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,022 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,023 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,024 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,024 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,025 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,026 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,026 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,027 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,028 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,028 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,029 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,029 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,030 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,030 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,031 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,032 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,032 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,033 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,034 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,034 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,035 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,035 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,037 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,037 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,038 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,038 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,039 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,040 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,040 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,042 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,042 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,043 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,044 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,044 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,045 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,045 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,046 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,053 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,053 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,054 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,054 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,055 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,056 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,056 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,057 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,058 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,058 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,058 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,059 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,059 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,060 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,061 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,061 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,062 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,062 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,063 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,064 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,064 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,065 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,066 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,067 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,067 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,068 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,069 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,069 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,070 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,071 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,071 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,072 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,072 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,073 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,074 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,074 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,075 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,075 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,075 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,076 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,077 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,078 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,078 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,079 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,080 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,080 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,081 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,082 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,082 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,083 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,084 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,084 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,085 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,085 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,086 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,087 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,087 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,088 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,088 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,089 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,090 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,090 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,091 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,091 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,092 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,092 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,093 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,094 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,094 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,095 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,095 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,096 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,096 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,097 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,098 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,098 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,099 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,099 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,100 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,100 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,101 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,102 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,102 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,103 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,103 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,104 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,104 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,105 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,106 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,106 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,107 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,107 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,108 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,108 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,109 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,109 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,110 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,111 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,111 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,112 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,112 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,114 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,114 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,114 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,115 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,116 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,116 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,117 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,118 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,118 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,119 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,119 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,120 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,120 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,121 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,121 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,122 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,122 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,124 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,125 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,125 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,126 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,126 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,127 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,128 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,128 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,129 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,129 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,130 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,131 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,131 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,132 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,133 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,133 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,134 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,134 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,135 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,135 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,136 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,137 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,137 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,138 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,138 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,139 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,139 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,140 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,140 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,141 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,143 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,143 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,144 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,144 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,145 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,145 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,146 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,147 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,147 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,148 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,148 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,149 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,149 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,150 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,150 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,151 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,152 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,152 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,153 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,153 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,154 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,154 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,155 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,156 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,156 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,158 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,158 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,159 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,160 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,160 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,161 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,162 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,163 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,163 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,164 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,165 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,165 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,166 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,167 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,167 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,168 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,169 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,170 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,170 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,171 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,171 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,172 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,173 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,173 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,174 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,175 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,175 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,176 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,177 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,178 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,179 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,179 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,180 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,181 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,181 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,182 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,182 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,183 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,184 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,184 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,185 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,185 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,186 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,186 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,187 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,188 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,188 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,189 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,189 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,190 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,190 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,191 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,191 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,192 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,192 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,192 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,193 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,194 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,194 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,195 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,195 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,196 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,196 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,197 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,198 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,198 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,199 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,199 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,200 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,201 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,201 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,202 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,203 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,204 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,204 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,205 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,205 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,206 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,207 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,208 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,208 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,209 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,210 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,210 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,211 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,211 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,212 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,212 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,213 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,214 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,214 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,215 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,215 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,216 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,216 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,217 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,217 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,218 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,219 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,219 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,220 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,220 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,221 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,221 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,222 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,223 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,223 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,224 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,224 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,225 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,226 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,226 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,227 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,227 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,228 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,229 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,229 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,230 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,230 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,230 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,231 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,232 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,232 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,233 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,233 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,234 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,235 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,235 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,236 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,237 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,237 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,238 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,238 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,239 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,240 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,240 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,240 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,243 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,244 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,245 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,245 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,246 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,247 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,248 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,248 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,249 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,250 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,250 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,251 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,251 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,252 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,253 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,253 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,254 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,254 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,255 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,256 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,256 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,257 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,257 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,258 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,258 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,259 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,259 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,260 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,260 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,261 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,261 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,262 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,262 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,263 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,263 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,264 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,264 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,265 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,266 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,266 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,267 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,267 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,268 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,268 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,269 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,270 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,270 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,271 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,272 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,272 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,273 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,273 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,274 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,275 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,275 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,276 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,276 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,277 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,278 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,278 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,279 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,279 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,280 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,280 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,281 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,282 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,282 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,283 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,284 [INFO] MxPackages:662 - 
+2024-01-23 14:05:16,284 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,285 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,285 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,286 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,286 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,286 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,287 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,287 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,288 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,288 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,289 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,289 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,290 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,290 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,291 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,291 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,292 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,292 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,355 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,356 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,357 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,357 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,358 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,358 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,359 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,359 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,360 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,360 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,361 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,362 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,362 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,363 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,363 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,364 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,364 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,364 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,365 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,365 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,366 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,366 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,367 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,367 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,368 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,368 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,368 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,369 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,369 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,370 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,370 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,371 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,371 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,372 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,372 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,373 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,373 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,374 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,374 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,375 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,375 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,376 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,376 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,377 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,377 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,378 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,378 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,379 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,379 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,380 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,380 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,381 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,381 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,382 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,382 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,383 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,383 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,384 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,384 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,385 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,385 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,386 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,386 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,387 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,387 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,388 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,388 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,389 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,389 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,390 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,390 [INFO] MxPackages:594 - 
+2024-01-23 14:05:16,391 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,391 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,392 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,392 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,393 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,393 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,394 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,394 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,395 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,395 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,396 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,396 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,396 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,400 [WARN] PopulateThirdPartyThread:73 - Error populating pack: STMicroelectronics.X-CUBE-SUBG2.pdsc
+2024-01-23 14:05:16,402 [WARN] PopulateThirdPartyThread:73 - Error populating pack: STMicroelectronics.X-CUBE-SMBUS.pdsc
+2024-01-23 14:05:16,405 [WARN] PopulateThirdPartyThread:73 - Error populating pack: STMicroelectronics.X-CUBE-TOF1.pdsc
+2024-01-23 14:05:16,409 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,409 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,410 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,411 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,412 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,412 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,413 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,413 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,414 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,414 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,415 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,415 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,416 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,416 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,417 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,417 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,418 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,418 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,419 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,420 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,420 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,420 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,421 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,422 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,422 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,423 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,424 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,424 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,425 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,425 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,426 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,427 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,427 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,428 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,429 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,429 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,430 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,431 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,431 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,432 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,433 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,433 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,434 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,434 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,435 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,435 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,436 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,436 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,438 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,438 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,438 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,439 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,439 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,440 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,440 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,441 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,442 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,442 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,443 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,444 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,444 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,446 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,447 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,447 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,448 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,448 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,449 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,450 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,450 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,451 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,452 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,452 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,453 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,454 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,455 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,455 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,456 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,456 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,457 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,458 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,459 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,460 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,460 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,462 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,463 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,464 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,464 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,465 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,465 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,466 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,467 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,467 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,468 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,469 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,469 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,470 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,470 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,471 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,471 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,472 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,472 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,473 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,474 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,475 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,475 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,476 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,476 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,477 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,477 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,478 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,479 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,479 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,480 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,481 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,482 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,483 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,483 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,484 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,485 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,485 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,486 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,487 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,487 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,488 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,488 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,489 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,489 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,490 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,490 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,491 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,493 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,493 [INFO] MxPackages:628 - 
+2024-01-23 14:05:16,497 [WARN] PopulateThirdPartyThread:73 - Error populating pack: STMicroelectronics.X-CUBE-AZRTOS-H7.pdsc
+2024-01-23 14:05:16,500 [WARN] PopulateThirdPartyThread:73 - Error populating pack: STMicroelectronics.X-CUBE-AZRTOS-F4.pdsc
+2024-01-23 14:05:16,503 [WARN] PopulateThirdPartyThread:73 - Error populating pack: STMicroelectronics.X-CUBE-AZRTOS-F7.pdsc
+2024-01-23 14:05:16,506 [WARN] PopulateThirdPartyThread:73 - Error populating pack: STMicroelectronics.X-CUBE-AZRTOS-L4.pdsc
+2024-01-23 14:05:16,509 [WARN] PopulateThirdPartyThread:73 - Error populating pack: STMicroelectronics.X-CUBE-AZRTOS-L5.pdsc
+2024-01-23 14:05:16,513 [WARN] PopulateThirdPartyThread:73 - Error populating pack: STMicroelectronics.X-CUBE-AZRTOS-G0.pdsc
+2024-01-23 14:05:16,516 [WARN] PopulateThirdPartyThread:73 - Error populating pack: STMicroelectronics.X-CUBE-AZRTOS-G4.pdsc
+2024-01-23 14:05:16,520 [WARN] PopulateThirdPartyThread:73 - Error populating pack: STMicroelectronics.X-CUBE-AZRTOS-WB.pdsc
+2024-01-23 14:05:16,522 [WARN] PopulateThirdPartyThread:73 - Error populating pack: STMicroelectronics.X-CUBE-AZRTOS-WL.pdsc
+2024-01-23 14:05:16,524 [WARN] PopulateThirdPartyThread:73 - Error populating pack: wolfSSL.I-CUBE-wolfSSL.pdsc
+2024-01-23 14:05:16,526 [WARN] PopulateThirdPartyThread:73 - Error populating pack: SEGGER.I-CUBE-embOS.pdsc
+2024-01-23 14:05:16,528 [WARN] PopulateThirdPartyThread:73 - Error populating pack: portGmbH.I-Cube-SoM-uGOAL.pdsc
+2024-01-23 14:05:16,529 [WARN] PopulateThirdPartyThread:73 - Error populating pack: emotas.I-CUBE-CANOPEN.pdsc
+2024-01-23 14:05:16,530 [WARN] PopulateThirdPartyThread:73 - Error populating pack: WES.I-CUBE-Cesium.pdsc
+2024-01-23 14:05:16,531 [WARN] PopulateThirdPartyThread:73 - Error populating pack: ITTIA_DB.I-CUBE-ITTIADB.pdsc
+2024-01-23 14:05:16,533 [WARN] PopulateThirdPartyThread:73 - Error populating pack: Infineon.AIROC-Wi-Fi-Bluetooth-STM32.pdsc
+2024-01-23 14:05:16,534 [INFO] PopulateThirdPartyThread:82 - Ending populate Thread
+2024-01-23 14:05:16,538 [INFO] ThirdPartyDb:264 - Close Third Party DataBase File (C:/Users/njv3788/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2024-01-23 14:05:16,555 [INFO] ThirdPartyDb:294 - Open Third Party DataBase File (C:/Users/njv3788/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 3 ms. number of Sw pack : 13
+2024-01-23 14:05:16,556 [INFO] Engine:437 - softwarePackList size : 13
+2024-01-23 14:05:16,562 [INFO] Engine:449 - compute dependency for SwPack X-CUBE-AI have been done, and update is requested
+2024-01-23 14:05:16,566 [INFO] Engine:449 - compute dependency for SwPack X-CUBE-BLE1 have been done, and update is requested
+2024-01-23 14:05:16,571 [INFO] Engine:449 - compute dependency for SwPack X-CUBE-BLE2 have been done, and update is requested
+2024-01-23 14:05:16,583 [INFO] Engine:449 - compute dependency for SwPack X-CUBE-EEPRMA1 have been done, and update is requested
+2024-01-23 14:05:16,588 [INFO] Engine:449 - compute dependency for SwPack X-CUBE-GNSS1 have been done, and update is requested
+2024-01-23 14:05:16,593 [INFO] Engine:449 - compute dependency for SwPack X-CUBE-ISPU have been done, and update is requested
+2024-01-23 14:05:16,700 [INFO] Engine:449 - compute dependency for SwPack X-CUBE-MEMS1 have been done, and update is requested
+2024-01-23 14:05:16,704 [INFO] Engine:449 - compute dependency for SwPack X-CUBE-NFC4 have been done, and update is requested
+2024-01-23 14:05:16,709 [INFO] Engine:449 - compute dependency for SwPack X-CUBE-NFC6 have been done, and update is requested
+2024-01-23 14:05:16,711 [INFO] Engine:449 - compute dependency for SwPack X-CUBE-NFC7 have been done, and update is requested
+2024-01-23 14:05:16,713 [INFO] Engine:449 - compute dependency for SwPack X-CUBE-SFXS2LP1 have been done, and update is requested
+2024-01-23 14:05:16,715 [INFO] Engine:453 - compute dependency for SwPack X-CUBE-TOUCHGFX have been done, no update is requested
+2024-01-23 14:05:16,716 [INFO] Engine:449 - compute dependency for SwPack X-CUBE-ALGOBUILD have been done, and update is requested
+2024-01-23 14:05:16,717 [INFO] ThirdPartyDb:264 - Close Third Party DataBase File (C:/Users/njv3788/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2024-01-23 14:05:16,730 [INFO] ThirdPartyDb:294 - Open Third Party DataBase File (C:/Users/njv3788/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 2 ms. number of Sw pack : 13
+2024-01-23 14:05:16,731 [ERROR] Engine:78 - Software Pack is missing : STMicroelectronics.X-CUBE-AI.8.1.0
+2024-01-23 14:05:16,732 [ERROR] ThirdParty:717 - Engine buildDependencyDb : invalid pack or unsuported pack STMicroelectronics.X-CUBE-AI.8.1.0
+2024-01-23 14:05:16,732 [ERROR] Engine:78 - Software Pack is missing : STMicroelectronics.X-CUBE-BLE1.7.0.0
+2024-01-23 14:05:16,733 [ERROR] ThirdParty:717 - Engine buildDependencyDb : invalid pack or unsuported pack STMicroelectronics.X-CUBE-BLE1.7.0.0
+2024-01-23 14:05:16,733 [ERROR] Engine:78 - Software Pack is missing : STMicroelectronics.X-CUBE-BLE2.3.3.0
+2024-01-23 14:05:16,734 [ERROR] ThirdParty:717 - Engine buildDependencyDb : invalid pack or unsuported pack STMicroelectronics.X-CUBE-BLE2.3.3.0
+2024-01-23 14:05:16,735 [ERROR] Engine:78 - Software Pack is missing : STMicroelectronics.X-CUBE-EEPRMA1.5.1.0
+2024-01-23 14:05:16,735 [ERROR] ThirdParty:717 - Engine buildDependencyDb : invalid pack or unsuported pack STMicroelectronics.X-CUBE-EEPRMA1.5.1.0
+2024-01-23 14:05:16,736 [ERROR] Engine:78 - Software Pack is missing : STMicroelectronics.X-CUBE-GNSS1.6.0.0
+2024-01-23 14:05:16,736 [ERROR] ThirdParty:717 - Engine buildDependencyDb : invalid pack or unsuported pack STMicroelectronics.X-CUBE-GNSS1.6.0.0
+2024-01-23 14:05:16,737 [ERROR] Engine:78 - Software Pack is missing : STMicroelectronics.X-CUBE-ISPU.2.0.0
+2024-01-23 14:05:16,737 [ERROR] ThirdParty:717 - Engine buildDependencyDb : invalid pack or unsuported pack STMicroelectronics.X-CUBE-ISPU.2.0.0
+2024-01-23 14:05:16,737 [ERROR] Engine:78 - Software Pack is missing : STMicroelectronics.X-CUBE-MEMS1.10.0.0
+2024-01-23 14:05:16,738 [ERROR] ThirdParty:717 - Engine buildDependencyDb : invalid pack or unsuported pack STMicroelectronics.X-CUBE-MEMS1.10.0.0
+2024-01-23 14:05:16,738 [ERROR] Engine:78 - Software Pack is missing : STMicroelectronics.X-CUBE-NFC4.3.0.0
+2024-01-23 14:05:16,739 [ERROR] ThirdParty:717 - Engine buildDependencyDb : invalid pack or unsuported pack STMicroelectronics.X-CUBE-NFC4.3.0.0
+2024-01-23 14:05:16,740 [ERROR] Engine:78 - Software Pack is missing : STMicroelectronics.X-CUBE-NFC6.3.0.0
+2024-01-23 14:05:16,740 [ERROR] ThirdParty:717 - Engine buildDependencyDb : invalid pack or unsuported pack STMicroelectronics.X-CUBE-NFC6.3.0.0
+2024-01-23 14:05:16,741 [ERROR] Engine:78 - Software Pack is missing : STMicroelectronics.X-CUBE-NFC7.1.0.1
+2024-01-23 14:05:16,741 [ERROR] ThirdParty:717 - Engine buildDependencyDb : invalid pack or unsuported pack STMicroelectronics.X-CUBE-NFC7.1.0.1
+2024-01-23 14:05:16,742 [ERROR] Engine:78 - Software Pack is missing : STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0
+2024-01-23 14:05:16,742 [ERROR] ThirdParty:717 - Engine buildDependencyDb : invalid pack or unsuported pack STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0
+2024-01-23 14:05:16,743 [ERROR] Engine:78 - Software Pack is missing : STMicroelectronics.X-CUBE-TOUCHGFX.4.23.0
+2024-01-23 14:05:16,743 [ERROR] ThirdParty:717 - Engine buildDependencyDb : invalid pack or unsuported pack STMicroelectronics.X-CUBE-TOUCHGFX.4.23.0
+2024-01-23 14:05:16,744 [ERROR] Engine:78 - Software Pack is missing : STMicroelectronics.X-CUBE-ALGOBUILD.1.3.0
+2024-01-23 14:05:16,744 [ERROR] ThirdParty:717 - Engine buildDependencyDb : invalid pack or unsuported pack STMicroelectronics.X-CUBE-ALGOBUILD.1.3.0
+2024-01-23 14:05:17,749 [INFO] ThirdPartyDb:264 - Close Third Party DataBase File (C:/Users/njv3788/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2024-01-23 14:05:17,760 [INFO] ThirdPartyDb:294 - Open Third Party DataBase File (C:/Users/njv3788/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 2 ms. number of Sw pack : 13
+2024-01-23 14:05:17,761 [INFO] ThirdPartyDb:264 - Close Third Party DataBase File (C:/Users/njv3788/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2024-01-23 14:05:17,765 [INFO] IntegrityCheckThread:97 - End integrity checks thread
+2024-01-23 14:07:22,316 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.2
+2024-01-23 14:07:22,318 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.1
+2024-01-23 14:07:22,319 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.0
+2024-01-23 14:07:37,303 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] File copied successfully!!
+2024-01-23 14:08:01,306 [INFO] MainUpdater:2232 - connection check result : 10
+2024-01-23 14:08:01,308 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Successfull proxy connection.
+2024-01-23 14:08:01,333 [INFO] MicroXplorer:390 - Change Database Path : 
+2024-01-23 14:08:01,334 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.40
+2024-01-23 14:08:01,336 [INFO] PinOutPanel:1367 - setPackage(No Configuration,No Configuration)
+2024-01-23 14:08:01,337 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 645755480 Bytes (923795456)
+2024-01-23 14:08:01,338 [INFO] OpenFileManager:269 - Change cursor
+2024-01-23 14:08:02,181 [INFO] Rule:205 - rule SPDIFRX instance for mcu is applicable
+2024-01-23 14:08:02,183 [INFO] Rule:205 - rule Rename Tracer Mode is applicable
+2024-01-23 14:08:02,183 [INFO] Rule:205 - rule SPDIFRX instance value for IP SPDIFRX is applicable
+2024-01-23 14:08:02,185 [INFO] Rule:205 - rule SPDIFRX instance for signal is applicable
+2024-01-23 14:08:02,186 [INFO] Rule:205 - rule SPDIFRX instance for project manager is applicable
+2024-01-23 14:08:02,186 [INFO] Rule:205 - rule SPDIFRX instance for project manager is applicable
+2024-01-23 14:08:02,187 [INFO] Rule:205 - rule ADC Scan  fix with FW F7 is applicable
+2024-01-23 14:08:02,188 [INFO] Rule:205 - rule ADC Scan  fix with FW F7 is applicable
+2024-01-23 14:08:02,189 [INFO] Rule:205 - rule UART/USART WORD LENGTH 7 is applicable
+2024-01-23 14:08:02,189 [INFO] Rule:205 - rule UART/USART WORD LENGTH 8 is applicable
+2024-01-23 14:08:02,251 [INFO] Rule:205 - rule UART/USART WORD LENGTH 9 is applicable
+2024-01-23 14:08:02,255 [INFO] Rule:205 - rule ADC SamplingTime fix with FW L0  is applicable
+2024-01-23 14:08:02,256 [INFO] Rule:205 - rule ADC SamplingTime fix with FW L0  is applicable
+2024-01-23 14:08:02,257 [INFO] Rule:205 - rule ADC SamplingTime fix with FW L0 is applicable
+2024-01-23 14:08:02,257 [INFO] Rule:205 - rule ADC SamplingTime fix with FW L0 is applicable
+2024-01-23 14:08:02,258 [INFO] Rule:205 - rule ADC SamplingTime fix with FW L0  is applicable
+2024-01-23 14:08:02,258 [INFO] Rule:205 - rule ADC SamplingTime fix with FW L0 is applicable
+2024-01-23 14:08:02,259 [INFO] Rule:205 - rule Rename USB_OE Signal is applicable
+2024-01-23 14:08:02,259 [INFO] Rule:205 - rule Rename Activate_OE Mode is applicable
+2024-01-23 14:08:02,260 [INFO] Rule:205 - rule Rename DIE462/DIE415 pin PC14/OSC32_IN -> PC14-OSC32_IN (PC14) is applicable
+2024-01-23 14:08:02,260 [INFO] Rule:205 - rule Rename DIE462/DIE415 pin PC15/OSC32_OUT -> PC15-OSC32_OUT (PC15) is applicable
+2024-01-23 14:08:02,261 [INFO] Rule:205 - rule Rename DIE462/DIE415 pin PH0/OSC_IN -> PH0-OSC_IN (PH0) is applicable
+2024-01-23 14:08:02,262 [INFO] Rule:205 - rule Rename DIE462/DIE415 pin PH1/OSC_OUT -> PH1-OSC_OUT (PH1) is applicable
+2024-01-23 14:08:02,262 [INFO] Rule:205 - rule Rename DIE462 pin PA13 -> PA13 (JTMS/SWDIO) is applicable
+2024-01-23 14:08:02,263 [INFO] Rule:205 - rule Rename DIE415 pin PA13 -> PA13 (JTMS/SWDIO) is applicable
+2024-01-23 14:08:02,263 [INFO] Rule:205 - rule Rename DIE462 pin PA14 -> PA14 (JTCK/SWCLK) is applicable
+2024-01-23 14:08:02,264 [INFO] Rule:205 - rule Rename DIE415 pin PA14 -> PA14 (JTCK/SWCLK) is applicable
+2024-01-23 14:08:02,264 [INFO] Rule:205 - rule Rename DIE462/DIE415 pin PA15 -> PA15 (JTDI) is applicable
+2024-01-23 14:08:02,265 [INFO] Rule:205 - rule Rename DIE462 pin PB3 -> PB3 (JTD0/TRACESWO) is applicable
+2024-01-23 14:08:02,265 [INFO] Rule:205 - rule Rename DIE415 pin PB3 -> PB3 (JTD0-TRACESWO) is applicable
+2024-01-23 14:08:02,266 [INFO] Rule:205 - rule Rename DIE462/DIE415 pin PB4 -> PB4 (NJTRST) is applicable
+2024-01-23 14:08:02,266 [INFO] Rule:205 - rule Rename DIE462 pin PH3/BOOT0 -> PH3-BOOT0 (BOOT0) is applicable
+2024-01-23 14:08:02,267 [INFO] Rule:205 - rule Rename CRYP DataEncryptionTypesList to Algorithm is applicable
+2024-01-23 14:08:02,267 [INFO] Rule:205 - rule Rename AES DataEncryptionTypesList to Algorithm is applicable
+2024-01-23 14:08:02,268 [INFO] Rule:205 - rule Rename TDESECB to CRYP_TDES_ECB is applicable
+2024-01-23 14:08:02,269 [INFO] Rule:205 - rule Rename TDESCBC to CRYP_TDES_CBC is applicable
+2024-01-23 14:08:02,269 [INFO] Rule:205 - rule Rename DESECB to CRYP_DES_ECB is applicable
+2024-01-23 14:08:02,270 [INFO] Rule:205 - rule Rename DESCBC to CRYP_DES_CBC is applicable
+2024-01-23 14:08:02,270 [INFO] Rule:205 - rule Rename AESECB to CRYP_AES_ECB is applicable
+2024-01-23 14:08:02,271 [INFO] Rule:205 - rule Rename AESCBC to CRYP_AES_CBC is applicable
+2024-01-23 14:08:02,271 [INFO] Rule:205 - rule Rename AESCTR to CRYP_AES_CTR is applicable
+2024-01-23 14:08:02,272 [INFO] Rule:205 - rule Rename AESGCM to CRYP_AES_GCM is applicable
+2024-01-23 14:08:02,273 [INFO] Rule:205 - rule Rename AESCCM to CRYP_AES_CCM is applicable
+2024-01-23 14:08:02,273 [INFO] Rule:205 - rule Rename CAN TimeSeg1 to BS1 is applicable
+2024-01-23 14:08:02,274 [INFO] Rule:205 - rule Rename CAN TimeSeg2 to BS2 is applicable
+2024-01-23 14:08:02,274 [INFO] Rule:205 - rule Rename CAN SyncJumpWidth to SJW is applicable
+2024-01-23 14:08:02,275 [INFO] Rule:205 - rule TimeTriggeredMode to TTCM is applicable
+2024-01-23 14:08:02,276 [INFO] Rule:205 - rule Rename CAN AutoBusOff to ABOM is applicable
+2024-01-23 14:08:02,276 [INFO] Rule:205 - rule Rename CAN AutoWakeUp to AWUM is applicable
+2024-01-23 14:08:02,277 [INFO] Rule:205 - rule Rename CAN AutoRetransmission to NART is applicable
+2024-01-23 14:08:02,278 [INFO] Rule:205 - rule Rename CAN ReceiveFifoLocked to RFLM is applicable
+2024-01-23 14:08:02,279 [INFO] Rule:205 - rule Rename CAN TransmitFifoPriority to TXFP is applicable
+2024-01-23 14:08:02,279 [INFO] Rule:205 - rule Rename HRTIMER HRTIM_OUTPUTFAULTLEVEL_HIGH in HRTIMER HRTIM_OUTPUTFAULTLEVEL_HIGHZ is applicable
+2024-01-23 14:08:02,280 [INFO] Rule:205 - rule Rename TIMER TIM_CLEARINPUTSOURCE_OCREFCLR in  TIMER TIM_CLEARINPUTSOURCE_NONE for F7 family is applicable
+2024-01-23 14:08:02,280 [INFO] Rule:205 - rule FDCAN_R1 - Rename FDCAN mode Master into Classic is applicable
+2024-01-23 14:08:02,281 [INFO] Rule:205 - rule FDCAN_R2 - Rename FDCAN mode Slave into Classic is applicable
+2024-01-23 14:08:02,282 [INFO] Rule:205 - rule FDCAN1_R3 - if PA10.Mode=FullDuplex, add Pin PA12 is applicable
+2024-01-23 14:08:02,282 [INFO] Rule:205 - rule FDCAN1_R3 - if PA9.Mode=FullDuplex, add Pin PA11 is applicable
+2024-01-23 14:08:02,283 [INFO] Rule:205 - rule FDCAN1_R3 - Alternatepin_1 - if PE1.Mode=FullDuplex, add Pin PB9 is applicable
+2024-01-23 14:08:02,283 [INFO] Rule:205 - rule FDCAN1_R3 - Alternatepin_1 - if PE0.Mode=FullDuplex, add Pin PB8 is applicable
+2024-01-23 14:08:02,284 [INFO] Rule:205 - rule FDCAN1_R3 - Alternatepin_2 - if PD5.Mode=FullDuplex, add Pin PD1 is applicable
+2024-01-23 14:08:02,286 [INFO] Rule:205 - rule FDCAN1_R3 - Alternatepin_2 - if PD4.Mode=FullDuplex, add Pin PD0 is applicable
+2024-01-23 14:08:02,286 [INFO] Rule:205 - rule FDCAN1_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PA10 is applicable
+2024-01-23 14:08:02,287 [INFO] Rule:205 - rule FDCAN1_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PA9 is applicable
+2024-01-23 14:08:02,288 [INFO] Rule:205 - rule FDCAN1_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PE1 is applicable
+2024-01-23 14:08:02,288 [INFO] Rule:205 - rule FDCAN1_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PE0 is applicable
+2024-01-23 14:08:02,289 [INFO] Rule:205 - rule FDCAN1_R4 - Alternatepin_2 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD5 is applicable
+2024-01-23 14:08:02,290 [INFO] Rule:205 - rule FDCAN1_R4 - Alternatepin_2 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD4 is applicable
+2024-01-23 14:08:02,290 [INFO] Rule:205 - rule FDCAN2_R3 - if PD10.Mode=FullDuplex, add Pin PB13 is applicable
+2024-01-23 14:08:02,291 [INFO] Rule:205 - rule FDCAN2_R3 - if PD9.Mode=FullDuplex, add Pin PB12 is applicable
+2024-01-23 14:08:02,292 [INFO] Rule:205 - rule FDCAN2_R3 - Alternatepin_1 - if PB7.Mode=FullDuplex, add Pin PB6 is applicable
+2024-01-23 14:08:02,292 [INFO] Rule:205 - rule FDCAN2_R3 - Alternatepin_1 - if PD9.Mode=FullDuplex, add Pin PB12 is applicable
+2024-01-23 14:08:02,294 [INFO] Rule:205 - rule FDCAN2_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD10 is applicable
+2024-01-23 14:08:02,294 [INFO] Rule:205 - rule FDCAN2_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD9 is applicable
+2024-01-23 14:08:02,295 [INFO] Rule:205 - rule FDCAN2_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PB7 is applicable
+2024-01-23 14:08:02,295 [INFO] Rule:205 - rule FDCAN2_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD6 is applicable
+2024-01-23 14:08:02,296 [INFO] Rule:205 - rule USART TxPinLevelInvertParam Mode is applicable
+2024-01-23 14:08:02,297 [INFO] Rule:205 - rule USART RxPinLevelInvertParam Mode is applicable
+2024-01-23 14:08:02,298 [INFO] Rule:205 - rule USART DataInvertParam Mode is applicable
+2024-01-23 14:08:02,298 [INFO] Rule:205 - rule USART SwapParam Mode is applicable
+2024-01-23 14:08:02,299 [INFO] Rule:205 - rule USART OverrunDisableParam Mode is applicable
+2024-01-23 14:08:02,300 [INFO] Rule:205 - rule USART DMADisableonRxErrorParam Mode is applicable
+2024-01-23 14:08:02,300 [INFO] Rule:205 - rule USART MSBFirstParam Mode is applicable
+2024-01-23 14:08:02,301 [INFO] Rule:205 - rule Update MwName for USB_DEVICE is applicable
+2024-01-23 14:08:02,302 [INFO] Rule:205 - rule Change PWR_Regulator_Voltage_Scale Default Value for RCC  H7 family is applicable
+2024-01-23 14:08:02,302 [INFO] Rule:205 - rule UART/USART IPParameter rename Prescaler parameter to ClockPrescaler is applicable
+2024-01-23 14:08:02,303 [INFO] Rule:205 - rule UART/USART Prescaler rename Prescaler parameter to ClockPrescaler is applicable
+2024-01-23 14:08:02,304 [INFO] Rule:205 - rule TIM1CLockSelection is applicable
+2024-01-23 14:08:02,304 [INFO] Rule:205 - rule TIM15CLockSelection is applicable
+2024-01-23 14:08:02,305 [INFO] Rule:205 - rule align RCC SDMMC3CLockSelection default value on MP1 is applicable
+2024-01-23 14:08:02,305 [INFO] Rule:205 - rule align RCC SDMMC12CLockSelection default value on MP1 is applicable
+2024-01-23 14:08:02,306 [INFO] Rule:205 - rule align RCC QSPICLockSelection default value on MP1 is applicable
+2024-01-23 14:08:02,307 [INFO] Rule:205 - rule align RCC QSPICLockSelection default value on MP1 is applicable
+2024-01-23 14:08:02,307 [INFO] Rule:205 - rule align RCC SPI6CLockSelection default value on MP1 is applicable
+2024-01-23 14:08:02,308 [INFO] Rule:205 - rule align RCC LPTIM23CLockSelection default value on MP1 is applicable
+2024-01-23 14:08:02,309 [INFO] Rule:205 - rule align RCC LPTIM1CLockSelection default value on MP1 is applicable
+2024-01-23 14:08:02,309 [INFO] Rule:205 - rule align RCC USART1CLockSelection default value on MP1 is applicable
+2024-01-23 14:08:02,310 [INFO] Rule:205 - rule align RCC USART24CLockSelection default value on MP1 is applicable
+2024-01-23 14:08:02,311 [INFO] Rule:205 - rule align RCC USART6CLockSelection default value on MP1 is applicable
+2024-01-23 14:08:02,311 [INFO] Rule:205 - rule align RCC UART78CLockSelection default value on MP1 is applicable
+2024-01-23 14:08:02,312 [INFO] Rule:205 - rule align RCC USART35CLockSelection default value on MP1 is applicable
+2024-01-23 14:08:02,312 [INFO] Rule:205 - rule align RCC SPI45CLockSelection default value on MP1 is applicable
+2024-01-23 14:08:02,313 [INFO] Rule:205 - rule align RCC I2C46CLockSelection BCLK value on MP1 is applicable
+2024-01-23 14:08:02,313 [INFO] Rule:205 - rule align RCC SPI45CLockSelection default value on MP1 is applicable
+2024-01-23 14:08:02,314 [INFO] Rule:205 - rule align RCC I2C12CLockSelection default value on MP1 is applicable
+2024-01-23 14:08:02,315 [INFO] Rule:205 - rule align RCC I2C35CLockSelection default value on MP1 is applicable
+2024-01-23 14:08:02,315 [INFO] Rule:205 - rule align RCC LPTIM45CLockSelection default value on MP1 is applicable
+2024-01-23 14:08:02,316 [INFO] Rule:205 - rule Rename DCMI PIXCK signal is applicable
+2024-01-23 14:08:02,316 [INFO] Rule:205 - rule Change Default Value for I2C46CLockSelection MP1 family is applicable
+2024-01-23 14:08:02,317 [INFO] Rule:205 - rule Change Default Value for UART for G4, G0 and WB families is applicable
+2024-01-23 14:08:02,318 [INFO] Rule:205 - rule Change Default Value for USART for G4, G0 and WB families is applicable
+2024-01-23 14:08:02,318 [INFO] Rule:205 - rule Change Default Value for USART for G4 family is applicable
+2024-01-23 14:08:02,326 [INFO] DbConfProperties:222 - Apply Compatibility (30/112 Rules)
+2024-01-23 14:08:02,333 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) Unable to find key (Mcu.ThirdPartyNb) in loaded IOC file
+2024-01-23 14:08:02,355 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Parameter (RTCHSEDivFreq_Value) has invalid value (4000000)
+2024-01-23 14:08:02,454 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 620638240 Bytes (923795456)
+2024-01-23 14:08:02,460 [INFO] ThirdPartyDb:294 - Open Third Party DataBase File (C:/Users/njv3788/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 2 ms. number of Sw pack : 13
+2024-01-23 14:08:02,495 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.1.0
+2024-01-23 14:08:02,496 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 7.0.0
+2024-01-23 14:08:02,497 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2024-01-23 14:08:02,497 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 5.1.0
+2024-01-23 14:08:02,498 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2024-01-23 14:08:02,498 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 2.0.0
+2024-01-23 14:08:02,499 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 10.0.0
+2024-01-23 14:08:02,499 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2024-01-23 14:08:02,500 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC6 3.0.0
+2024-01-23 14:08:02,500 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.1
+2024-01-23 14:08:02,502 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2024-01-23 14:08:02,502 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.23.0
+2024-01-23 14:08:02,503 [INFO] ThirdParty:897 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2024-01-23 14:08:02,592 [INFO] PinOutPanel:1367 - setPackage(No Configuration,No Configuration)
+2024-01-23 14:08:02,593 [INFO] PinOutPanel:1367 - setPackage(STM32F411VETx,LQFP100)
+2024-01-23 14:08:02,769 [INFO] UtilMem:74 - Before build in PCC Used Memory: 611815392 Bytes (923795456)
+2024-01-23 14:08:02,956 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/njv3788/.stm32cubemx/plugins/power
+2024-01-23 14:08:02,957 [INFO] UtilMem:74 - After build in PCC Used Memory: 626168800 Bytes (923795456)
+2024-01-23 14:08:02,960 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2024-01-23 14:08:02,961 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,962 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,962 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,963 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,963 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,964 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,964 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,965 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,965 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,966 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,966 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,967 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,967 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,968 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,968 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,969 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,970 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,970 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,971 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,971 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,972 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,972 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,973 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,973 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,975 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,975 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,976 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,976 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,977 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,977 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,978 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,978 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,979 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,980 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,980 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,981 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,981 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,982 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,982 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,983 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,983 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,984 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2024-01-23 14:08:02,988 [WARN] IP:1925 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-01-23 14:08:02,989 [WARN] IP:1925 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-01-23 14:08:02,995 [INFO] I2sManager:616 - 1.6E8
+2024-01-23 14:08:02,995 [INFO] I2sManager:173 - I2S Clock Value : 1.6E8
+2024-01-23 14:08:02,996 [INFO] I2sManager:510 - AudioClock : 96153Divider : 26Odd : 0
+2024-01-23 14:08:02,997 [INFO] I2sManager:616 - 1.6E8
+2024-01-23 14:08:02,998 [INFO] I2sManager:173 - I2S Clock Value : 1.6E8
+2024-01-23 14:08:02,998 [INFO] I2sManager:510 - AudioClock : 89285Divider : 3Odd : 1
+2024-01-23 14:08:02,999 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2024-01-23 14:08:03,007 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] toolchainItems.length=====1
+2024-01-23 14:08:03,049 [INFO] OpenFileManager:289 - Restore cursor
+2024-01-23 14:08:03,112 [INFO] ApiDbMcu:445 - Load IP Config File for USB_HOST
+2024-01-23 14:08:03,126 [WARN] IP:1925 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-01-23 14:08:03,127 [WARN] IP:1925 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-01-23 14:08:03,128 [WARN] IP:1925 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-01-23 14:08:03,128 [WARN] IP:1925 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-01-23 14:08:03,132 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2024-01-23 14:08:03,145 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2024-01-23 14:08:03,195 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 676500448 Bytes (923795456)
+2024-01-23 14:08:03,317 [INFO] ServerAccessManage:348 - Download File stm32cube_fw_f4_v1240.zip
+2024-01-23 14:08:13,586 [INFO] FileExtend:210 - Unzip File : stm32cube_fw_f4_v1240.zip
+2024-01-23 14:08:13,588 [INFO] FileExtend:225 - Standard Zip Deflate
+2024-01-23 14:08:41,431 [INFO] ServerAccessManage:348 - Download File stm32cube_fw_f4_v1242.zip
+2024-01-23 14:08:43,351 [INFO] FileExtend:210 - Unzip File : stm32cube_fw_f4_v1242.zip
+2024-01-23 14:08:43,353 [INFO] FileExtend:225 - Standard Zip Deflate
+2024-01-23 14:08:43,864 [INFO] LoadServerPackagesThread:155 - End of LoadServerPackages Thread
+2024-01-23 14:08:43,888 [INFO] CheckServerUpdateThread:92 - End of CheckServer Thread
+2024-01-23 14:08:43,891 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 752539848 Bytes (1073741824)
+2024-01-23 14:08:44,118 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: SPI
+2024-01-23 14:08:44,119 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: USB_OTG_FS
+2024-01-23 14:08:44,120 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: NVIC
+2024-01-23 14:08:44,120 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: USB_HOST
+2024-01-23 14:08:44,121 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: I2S
+2024-01-23 14:08:44,121 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: I2S
+2024-01-23 14:08:44,122 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: SYS
+2024-01-23 14:08:44,123 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: GPIO
+2024-01-23 14:08:44,123 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: RCC
+2024-01-23 14:08:44,124 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: I2C
+2024-01-23 14:08:44,136 [INFO] CodeGenerator:598 - code generatio: config db path: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\
+2024-01-23 14:08:44,155 [WARN] IP:1925 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-01-23 14:08:44,156 [WARN] IP:1925 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-01-23 14:08:44,489 [INFO] CodeEngine:193 - oldGeneratedFile, S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\MXTmpFiles\license.tmp_save
+2024-01-23 14:08:44,816 [INFO] CodeEngine:211 - Generated code: S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\MXTmpFiles\license.tmp
+2024-01-23 14:08:44,922 [INFO] CodeEngine:193 - oldGeneratedFile, S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\MXTmpFiles\gpio.tmp_save
+2024-01-23 14:08:45,038 [INFO] CodeEngine:211 - Generated code: S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\MXTmpFiles\gpio.tmp
+2024-01-23 14:08:45,065 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2024-01-23 14:08:45,158 [INFO] CodeEngine:193 - oldGeneratedFile, S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2024-01-23 14:08:45,251 [INFO] CodeEngine:211 - Generated code: S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\MXTmpFiles\usb_otg_fs_vars.tmp
+2024-01-23 14:08:45,338 [INFO] CodeEngine:193 - oldGeneratedFile, S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2024-01-23 14:08:45,411 [INFO] CodeEngine:211 - Generated code: S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\MXTmpFiles\usb_otg_fs_inc.tmp
+2024-01-23 14:08:45,516 [INFO] CodeEngine:193 - oldGeneratedFile, S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2024-01-23 14:08:45,604 [INFO] CodeEngine:211 - Generated code: S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2024-01-23 14:08:45,695 [INFO] CodeEngine:193 - oldGeneratedFile, S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2024-01-23 14:08:45,789 [INFO] CodeEngine:211 - Generated code: S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\MXTmpFiles\usb_otg_fs_Msp.tmp
+2024-01-23 14:08:45,939 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2024-01-23 14:08:45,940 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for I2C
+2024-01-23 14:08:45,941 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2024-01-23 14:08:45,943 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2024-01-23 14:08:45,944 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for I2S
+2024-01-23 14:08:45,944 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2024-01-23 14:08:45,946 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2024-01-23 14:08:45,947 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for SPI
+2024-01-23 14:08:45,948 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2024-01-23 14:08:45,949 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2024-01-23 14:08:45,950 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for SYS
+2024-01-23 14:08:45,951 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2024-01-23 14:08:45,952 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2024-01-23 14:08:46,029 [INFO] CodeEngine:193 - oldGeneratedFile, S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\USB_HOST\App\usb_host.c_save
+2024-01-23 14:08:46,165 [INFO] CodeEngine:211 - Generated code: S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\USB_HOST\App\usb_host.c
+2024-01-23 14:08:46,247 [INFO] CodeEngine:193 - oldGeneratedFile, S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\USB_HOST\App\usb_host.h_save
+2024-01-23 14:08:46,345 [INFO] CodeEngine:211 - Generated code: S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\USB_HOST\App\usb_host.h
+2024-01-23 14:08:46,429 [INFO] CodeEngine:193 - oldGeneratedFile, S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\USB_HOST\Target\usbh_conf.h_save
+2024-01-23 14:08:46,549 [INFO] CodeEngine:211 - Generated code: S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\USB_HOST\Target\usbh_conf.h
+2024-01-23 14:08:46,636 [INFO] CodeEngine:193 - oldGeneratedFile, S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\USB_HOST\Target\usbh_conf.c_save
+2024-01-23 14:08:46,783 [INFO] CodeEngine:211 - Generated code: S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\USB_HOST\Target\usbh_conf.c
+2024-01-23 14:08:46,857 [INFO] CodeEngine:193 - oldGeneratedFile, S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\USB_HOST\Target\usbh_platform.c_save
+2024-01-23 14:08:46,960 [INFO] CodeEngine:211 - Generated code: S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\USB_HOST\Target\usbh_platform.c
+2024-01-23 14:08:47,047 [INFO] CodeEngine:193 - oldGeneratedFile, S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\USB_HOST\Target\usbh_platform.h_save
+2024-01-23 14:08:47,156 [INFO] CodeEngine:211 - Generated code: S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\USB_HOST\Target\usbh_platform.h
+2024-01-23 14:08:47,180 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2024-01-23 14:08:47,181 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2024-01-23 14:08:47,252 [INFO] CodeEngine:193 - oldGeneratedFile, S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\Core\Src\stm32f4xx_it.c_save
+2024-01-23 14:08:47,395 [INFO] CodeEngine:211 - Generated code: S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\Core\Src\stm32f4xx_it.c
+2024-01-23 14:08:47,483 [INFO] CodeEngine:193 - oldGeneratedFile, S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\Core\Inc\stm32f4xx_it.h_save
+2024-01-23 14:08:47,591 [INFO] CodeEngine:211 - Generated code: S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\Core\Inc\stm32f4xx_it.h
+2024-01-23 14:08:47,702 [INFO] CodeEngine:193 - oldGeneratedFile, S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\Core\Src\stm32f4xx_hal_msp.c_save
+2024-01-23 14:08:47,859 [INFO] CodeEngine:211 - Generated code: S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\Core\Src\stm32f4xx_hal_msp.c
+2024-01-23 14:08:47,935 [INFO] CodeEngine:193 - oldGeneratedFile, S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\MXTmpFiles\system.tmp_save
+2024-01-23 14:08:48,010 [INFO] CodeEngine:211 - Generated code: S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\MXTmpFiles\system.tmp
+2024-01-23 14:08:48,105 [INFO] CodeEngine:193 - oldGeneratedFile, S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-01-23 14:08:48,241 [INFO] CodeEngine:211 - Generated code: S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\Core\Inc\stm32f4xx_hal_conf.h
+2024-01-23 14:08:48,266 [WARN] IPConfigManager:2673 - IP not found : gpio
+2024-01-23 14:08:48,267 [WARN] CodeGenerator:2697 - IP not found : gpio
+2024-01-23 14:08:48,332 [INFO] CodeEngine:193 - oldGeneratedFile, S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\Core\Inc\main.h_save
+2024-01-23 14:08:48,451 [INFO] CodeEngine:211 - Generated code: S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\Core\Inc\main.h
+2024-01-23 14:08:48,539 [INFO] CodeEngine:193 - oldGeneratedFile, S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\Core\Src\main.c_save
+2024-01-23 14:08:48,693 [INFO] CodeEngine:211 - Generated code: S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\Core\Src\main.c
+2024-01-23 14:08:51,396 [INFO] ProjectBuilder:1645 - Time for Copy HAL[1] : 2461mS.
+2024-01-23 14:08:51,422 [INFO] ProjectBuilder:2206 - Project Generator version: 3.5.2
+2024-01-23 14:08:51,503 [INFO] ConfigFileManager:953 - The Die is : DIE431
+2024-01-23 14:08:56,407 [INFO] ProjectBuilder:2373 - Time for Generating toolchain IDE Files: 4985mS.
+2024-01-23 14:08:56,414 [INFO] ProjectBuilder:1505 - Time for Copy CMSIS : 6mS.
+2024-01-23 14:08:56,425 [INFO] ProjectBuilder:1505 - Time for Copy CMSIS : 1mS.
+2024-01-23 14:16:07,497 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2024-01-23 14:16:07,504 [WARN] BspModel:404 - BSP dependency skipped because of component: name='IOExpander', api='Unknown'
+2024-01-23 14:16:12,252 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2024-01-23 14:16:12,255 [WARN] BspModel:404 - BSP dependency skipped because of component: name='IOExpander', api='Unknown'
+2024-01-23 14:16:17,779 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2024-01-23 14:16:17,782 [WARN] BspModel:404 - BSP dependency skipped because of component: name='IOExpander', api='Unknown'
+2024-01-23 14:16:18,779 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2024-01-23 14:16:18,782 [WARN] BspModel:404 - BSP dependency skipped because of component: name='IOExpander', api='Unknown'
+2024-01-23 14:16:22,627 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2024-01-23 14:16:22,629 [WARN] BspModel:404 - BSP dependency skipped because of component: name='IOExpander', api='Unknown'
+2024-01-23 14:16:23,581 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2024-01-23 14:16:23,584 [WARN] BspModel:404 - BSP dependency skipped because of component: name='IOExpander', api='Unknown'
+2024-01-23 14:16:26,109 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2024-01-23 14:16:26,117 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2024-01-23 14:16:26,124 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2024-01-23 14:16:26,129 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2024-01-23 14:16:40,476 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2024-01-23 14:16:44,127 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2024-01-23 14:16:44,137 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2024-01-23 14:16:44,142 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2024-01-23 14:17:42,452 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2024-01-23 14:17:42,651 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2024-01-23 14:19:08,516 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2024-01-23 14:19:08,546 [INFO] BlockDiagram:1827 - stop enableDisableButtons
+2024-01-23 14:20:20,671 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 695590704 Bytes (1073741824)
+2024-01-23 14:20:25,039 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 705550136 Bytes (1073741824)
+2024-01-23 14:20:25,176 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 720230200 Bytes (1073741824)
+2024-01-23 14:20:25,258 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: SPI
+2024-01-23 14:20:25,259 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: NVIC
+2024-01-23 14:20:25,260 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: I2S
+2024-01-23 14:20:25,261 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: I2S
+2024-01-23 14:20:25,261 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: SYS
+2024-01-23 14:20:25,262 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: GPIO
+2024-01-23 14:20:25,263 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: RCC
+2024-01-23 14:20:25,264 [INFO] BlockDiagram:1871 - set Specific Code input for plugin: I2C
+2024-01-23 14:20:25,276 [INFO] CodeGenerator:598 - code generatio: config db path: C:\RTOS\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.4.0.201910091541\\db\
+2024-01-23 14:20:25,278 [WARN] IP:1925 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2024-01-23 14:20:25,279 [WARN] IP:1925 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2024-01-23 14:20:25,430 [INFO] CodeEngine:193 - oldGeneratedFile, S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\MXTmpFiles\license.tmp_save
+2024-01-23 14:20:25,552 [INFO] CodeEngine:211 - Generated code: S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\MXTmpFiles\license.tmp
+2024-01-23 14:20:25,690 [INFO] CodeEngine:193 - oldGeneratedFile, S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\MXTmpFiles\gpio.tmp_save
+2024-01-23 14:20:25,773 [INFO] CodeEngine:211 - Generated code: S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\MXTmpFiles\gpio.tmp
+2024-01-23 14:20:25,849 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2024-01-23 14:20:25,850 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for I2C
+2024-01-23 14:20:25,851 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2024-01-23 14:20:25,852 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2024-01-23 14:20:25,853 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for I2S
+2024-01-23 14:20:25,854 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2024-01-23 14:20:25,855 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2024-01-23 14:20:25,856 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for SPI
+2024-01-23 14:20:25,856 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2024-01-23 14:20:25,858 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2024-01-23 14:20:25,858 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for SYS
+2024-01-23 14:20:25,859 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2024-01-23 14:20:25,861 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2024-01-23 14:20:25,861 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2024-01-23 14:20:25,957 [INFO] CodeEngine:193 - oldGeneratedFile, S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\Core\Src\stm32f4xx_it.c_save
+2024-01-23 14:20:26,123 [INFO] CodeEngine:211 - Generated code: S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\Core\Src\stm32f4xx_it.c
+2024-01-23 14:20:26,233 [INFO] CodeEngine:193 - oldGeneratedFile, S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\Core\Inc\stm32f4xx_it.h_save
+2024-01-23 14:20:26,381 [INFO] CodeEngine:211 - Generated code: S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\Core\Inc\stm32f4xx_it.h
+2024-01-23 14:20:26,577 [INFO] CodeEngine:193 - oldGeneratedFile, S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\Core\Src\stm32f4xx_hal_msp.c_save
+2024-01-23 14:20:26,826 [INFO] CodeEngine:211 - Generated code: S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\Core\Src\stm32f4xx_hal_msp.c
+2024-01-23 14:20:27,023 [INFO] CodeEngine:193 - oldGeneratedFile, S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\MXTmpFiles\system.tmp_save
+2024-01-23 14:20:27,117 [INFO] CodeEngine:211 - Generated code: S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\MXTmpFiles\system.tmp
+2024-01-23 14:20:27,235 [INFO] CodeEngine:193 - oldGeneratedFile, S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-01-23 14:20:27,435 [INFO] CodeEngine:211 - Generated code: S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\Core\Inc\stm32f4xx_hal_conf.h
+2024-01-23 14:20:27,480 [WARN] IPConfigManager:2673 - IP not found : gpio
+2024-01-23 14:20:27,481 [WARN] CodeGenerator:2697 - IP not found : gpio
+2024-01-23 14:20:27,593 [INFO] CodeEngine:193 - oldGeneratedFile, S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\Core\Inc\main.h_save
+2024-01-23 14:20:27,756 [INFO] CodeEngine:211 - Generated code: S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\Core\Inc\main.h
+2024-01-23 14:20:27,890 [INFO] CodeEngine:193 - oldGeneratedFile, S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\Core\Src\main.c_save
+2024-01-23 14:20:28,125 [INFO] CodeEngine:211 - Generated code: S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\Core\Src\main.c
+2024-01-23 14:20:31,118 [INFO] ProjectBuilder:1645 - Time for Copy HAL[1] : 2646mS.
+2024-01-23 14:20:31,120 [INFO] ProjectBuilder:2206 - Project Generator version: 3.5.2
+2024-01-23 14:20:31,202 [INFO] ConfigFileManager:953 - The Die is : DIE431
+2024-01-23 14:20:32,377 [INFO] ProjectBuilder:2373 - Time for Generating toolchain IDE Files: 1257mS.
+2024-01-23 14:20:32,386 [INFO] ProjectBuilder:1505 - Time for Copy CMSIS : 7mS.
+2024-01-23 14:20:32,393 [INFO] ProjectBuilder:1505 - Time for Copy CMSIS : 0mS.
+2024-01-23 14:20:32,844 [INFO] BlockDiagram:1827 - stop enableDisableButtons
