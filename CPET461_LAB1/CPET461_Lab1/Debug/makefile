@@ -52,8 +52,8 @@ CPET461_Lab1.list \
 all: CPET461_Lab1.elf secondary-outputs
 
 # Tool invocations
-CPET461_Lab1.elf: $(OBJS) $(USER_OBJS) S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\STM32F411VETX_FLASH.ld
-	arm-none-eabi-g++ -o "CPET461_Lab1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"S:\Documents\gitrepos\CPET461_LAB1\CPET461_Lab1\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CPET461_Lab1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+CPET461_Lab1.elf: $(OBJS) $(USER_OBJS) S:\Documents\gitrepos\CPET461\CPET461_LAB1\CPET461_Lab1\STM32F411VETX_FLASH.ld
+	arm-none-eabi-g++ -o "CPET461_Lab1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"S:\Documents\gitrepos\CPET461\CPET461_LAB1\CPET461_Lab1\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CPET461_Lab1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
