@@ -34,15 +34,11 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-int Start_Flag = 1;
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
 /* USER CODE BEGIN PM */
-#define GREEN_LED   GPIO_PIN_12
-#define ORANGE_LED  GPIO_PIN_13
-#define RED_LED     GPIO_PIN_14
-#define BLUE_LED    GPIO_PIN_15
+
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
@@ -70,7 +66,7 @@ void Start_GREEN_LED(void const * argument);
 void Start_RED_LED(void const * argument);
 
 /* USER CODE BEGIN PFP */
-
+int Start_Flag = 1;
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -83,7 +79,7 @@ void accessFunction()
   }
   else
   {
-    HAL_GPIO_TogglePin(GPIOD, BLUE_LED);
+    HAL_GPIO_TogglePin(BLUE_LED_GPIO_Port, BLUE_LED_Pin);
 //    HAL_GPIO_WritePin(GPIOD, BLUE_LED, GPIO_PIN_SET);
   }
 
@@ -152,7 +148,7 @@ int main(void)
   GREEN_LEDHandle = osThreadCreate(osThread(GREEN_LED), NULL);
 
   /* definition and creation of RED_LED */
-  osThreadDef(RED_LED, Start_RED_LED, osPriorityIdle, 0, 128);
+  osThreadDef(RED_LED, Start_RED_LED, osPriorityAboveNormal, 0, 128);
   RED_LEDHandle = osThreadCreate(osThread(RED_LED), NULL);
 
   /* USER CODE BEGIN RTOS_THREADS */
@@ -390,7 +386,7 @@ static void MX_GPIO_Init(void)
   HAL_GPIO_WritePin(OTG_FS_PowerSwitchOn_GPIO_Port, OTG_FS_PowerSwitchOn_Pin, GPIO_PIN_SET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOD, LD4_Pin|LD3_Pin|LD5_Pin|LD6_Pin 
+  HAL_GPIO_WritePin(GPIOD, GREEN_LED_Pin|ORANGE_LED_Pin|RED_LED_Pin|BLUE_LED_Pin 
                           |Audio_RST_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin : DATA_Ready_Pin */
@@ -425,9 +421,9 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : LD4_Pin LD3_Pin LD5_Pin LD6_Pin 
+  /*Configure GPIO pins : GREEN_LED_Pin ORANGE_LED_Pin RED_LED_Pin BLUE_LED_Pin 
                            Audio_RST_Pin */
-  GPIO_InitStruct.Pin = LD4_Pin|LD3_Pin|LD5_Pin|LD6_Pin 
+  GPIO_InitStruct.Pin = GREEN_LED_Pin|ORANGE_LED_Pin|RED_LED_Pin|BLUE_LED_Pin 
                           |Audio_RST_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
@@ -473,7 +469,10 @@ void Start_GREEN_LED(void const * argument)
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1);
+    HAL_GPIO_TogglePin(GREEN_LED_GPIO_Port, GREEN_LED_Pin);
+	accessFunction();
+	HAL_GPIO_TogglePin(GREEN_LED_GPIO_Port, GREEN_LED_Pin);
+	osDelay(500);
   }
   /* USER CODE END 5 */ 
 }
@@ -491,7 +490,10 @@ void Start_RED_LED(void const * argument)
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1);
+	HAL_GPIO_TogglePin(RED_LED_GPIO_Port, RED_LED_Pin);
+	accessFunction();
+	HAL_GPIO_TogglePin(RED_LED_GPIO_Port, RED_LED_Pin);
+	osDelay(100);
   }
   /* USER CODE END Start_RED_LED */
 }

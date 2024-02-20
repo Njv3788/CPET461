@@ -1,0 +1,13 @@
+main.c:76:6:accessFunction	24	static
+main.c:107:5:main	112	static
+main.c:198:6:SystemClock_Config	112	static
+main.c:250:13:MX_I2C1_Init	8	static
+main.c:284:13:MX_I2S2_Init	8	static
+main.c:318:13:MX_I2S3_Init	8	static
+main.c:352:13:MX_SPI1_Init	8	static
+main.c:390:13:MX_GPIO_Init	56	static
+main.c:486:6:Start_GREEN_LED	24	static
+main.c:510:6:Start_RED_LED	24	static
+main.c:535:6:Start_ORANGE_LED	24	static
+main.c:560:6:HAL_TIM_PeriodElapsedCallback	16	static
+main.c:577:6:Error_Handler	4	static
