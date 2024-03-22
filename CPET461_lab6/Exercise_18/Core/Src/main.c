@@ -21,6 +21,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "cmsis_os.h"
+#include "stdint.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -93,7 +94,7 @@ int main(void)
   HAL_Init();
 
   /* USER CODE BEGIN Init */
-
+  init_LED_flash_pool();
   /* USER CODE END Init */
 
   /* Configure the system clock */
@@ -456,9 +457,19 @@ static void MX_GPIO_Init(void)
 void Start_GREEN_LED(void const * argument)
 {
   /* USER CODE BEGIN 5 */
+  LED_tasks_t LED = GREEN_LED;
+  LED_Flash_t Flash =  {10,1};
+  GPIO_TypeDef* GPIOx = GREEN_LED_GPIO_Port;
+  uint16_t GPIO_Pin = GREEN_LED_Pin;
   /* Infinite loop */
   for(;;)
   {
+	Flash.rate =  getLED_flash_pool(LED);
+    for(int i = 0 ; i < 1000 * Flash.period / Flash.rate; i++)
+    {
+    	osDelay(Flash.rate);
+    	HAL_GPIO_TogglePin(GPIOx, GPIO_Pin);
+    }
   }
   /* USER CODE END 5 */ 
 }
@@ -473,9 +484,20 @@ void Start_GREEN_LED(void const * argument)
 void Start_RED_LED(void const * argument)
 {
   /* USER CODE BEGIN Start_RED_LED */
+  LED_tasks_t LED = RED_LED;
+  LED_Flash_t Flash =  {6,1};
+  GPIO_TypeDef* GPIOx = RED_LED_GPIO_Port;
+  uint16_t GPIO_Pin = RED_LED_Pin;
+
   /* Infinite loop */
   for(;;)
   {
+	Flash.rate = getLED_flash_pool(LED);
+	for(int i = 0; i < 1000 * Flash.period / Flash.rate; i++)
+	{
+      osDelay(Flash.rate);
+      HAL_GPIO_TogglePin(GPIOx, GPIO_Pin);
+	}
   }
   /* USER CODE END Start_RED_LED */
 }
@@ -490,10 +512,18 @@ void Start_RED_LED(void const * argument)
 void Start_LED_FLASH_CONTROL(void const * argument)
 {
   /* USER CODE BEGIN Start_LED_FLASH_CONTROL */
+  LED_tasks_t LED_R = RED_LED;
+  LED_tasks_t LED_G = GREEN_LED;
+  uint32_t delay = 8000;
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1);
+    osDelay(delay);
+    setLED_flash_pool(LED_G,1);
+    setLED_flash_pool(LED_R,10);
+    osDelay(delay);
+    setLED_flash_pool(LED_G,10);
+    setLED_flash_pool(LED_R,1);
   }
   /* USER CODE END Start_LED_FLASH_CONTROL */
 }
