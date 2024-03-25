@@ -1,0 +1,3 @@
+Deferred_Sever.c:14:6:InitEFSema	8	static
+Deferred_Sever.c:19:6:SetEFSema	8	static
+Deferred_Sever.c:24:6:WaitEFSema	8	static
