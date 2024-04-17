@@ -56,8 +56,8 @@ Exercise_20.list \
 all: Exercise_20.elf secondary-outputs
 
 # Tool invocations
-Exercise_20.elf: $(OBJS) $(USER_OBJS) S:\RTOS\Exercise_20\STM32F411VETX_FLASH.ld
-	arm-none-eabi-g++ -o "Exercise_20.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"S:\RTOS\Exercise_20\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Exercise_20.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Exercise_20.elf: $(OBJS) $(USER_OBJS) S:\Documents\gitrepos\CPET461\CPET461_lab6\Exercise_20\STM32F411VETX_FLASH.ld
+	arm-none-eabi-g++ -o "Exercise_20.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"S:\Documents\gitrepos\CPET461\CPET461_lab6\Exercise_20\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Exercise_20.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

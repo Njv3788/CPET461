@@ -35,7 +35,7 @@
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
 #define NUM_TSK_BLK 2
-#define SIGNLE_SEMAPHORE 0
+#define SIGNLE_SEMAPHORE 1
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/

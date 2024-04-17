@@ -1533,7 +1533,7 @@ void Start_RED_LED(void const * argument)
   /* Infinite loop */
   for(;;)
   {
-	Flash.rate =  getLED_flash_pool(LED);
+	Flash.rate = getLED_flash_pool(LED);
  8000c00:	7efb      	ldrb	r3, [r7, #27]
  8000c02:	4618      	mov	r0, r3
  8000c04:	f7ff fcda 	bl	80005bc <getLED_flash_pool>
@@ -1565,7 +1565,7 @@ void Start_RED_LED(void const * argument)
  8000c3a:	69fb      	ldr	r3, [r7, #28]
  8000c3c:	429a      	cmp	r2, r3
  8000c3e:	d8e8      	bhi.n	8000c12 <Start_RED_LED+0x36>
-	Flash.rate =  getLED_flash_pool(LED);
+	Flash.rate = getLED_flash_pool(LED);
  8000c40:	e7de      	b.n	8000c00 <Start_RED_LED+0x24>
  8000c42:	bf00      	nop
  8000c44:	08005628 	.word	0x08005628
